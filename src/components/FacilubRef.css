@@ -10,8 +10,8 @@
 }
 
 .facilub-ref img {
-  width: 60px; /* Ancho de la imagen */
-  height: 60px; /* Alto de la imagen */
+ /* width: 60px;  Ancho de la imagen */
+ /* height: 60px;  Alto de la imagen */
   object-fit: cover; /* Asegura que la imagen se ajuste al contenedor */
 }
 
