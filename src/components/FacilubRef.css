@@ -1,0 +1,26 @@
+.facilub-ref {
+  width: 400px; /* Ancho del contenedor */
+  height: 200px; /* Alto del contenedor */
+  border: 1px solid #4E6E4D; /* Color del borde */
+  padding: 10px; /* Espaciado interno */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden; /* Oculta el contenido que desborda */
+}
+
+.facilub-ref img {
+  width: 60px; /* Ancho de la imagen */
+  height: 60px; /* Alto de la imagen */
+  object-fit: cover; /* Asegura que la imagen se ajuste al contenedor */
+}
+
+.descripcion {
+  font-size: 0.8em; 
+}
+
+.ubicacion {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}

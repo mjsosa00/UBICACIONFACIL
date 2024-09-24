@@ -1,0 +1,17 @@
+.footer {
+    background-color: #4E6E4D; /* Color verde óxido */
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer nav li {
+    display: inline;
+    margin: 0 15px;
+    cursor: pointer;
+  }
