@@ -1,50 +1,40 @@
-import React, { useEffect, useRef, useState  } from 'react';
+import React, { useEffect, useState } from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+import fetchData from '../services/referencias'; // Ajusta esta ruta si es necesario
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './FacilubCarrusel.css';
-import FacilubRef from './FacilubRef';
-import fetchData from '../services/referencias';
 
 const Carrusel = () => {
-  const carruselRef = useRef(null);
-
   const [referencias, setReferencias] = useState([]);
 
   useEffect(() => {
     const getData = async () => {
       const data = await fetchData();
-      setReferencias(data); // Asigna los datos obtenidos al estado
+      setReferencias(data);
     };
 
     getData();
   }, []);
 
-  const scrollIzquierda = () => {
-    if (carruselRef.current) {
-      carruselRef.current.scrollBy({ left: -432, behavior: 'smooth' });
-    }
-  };
-
-  const scrollDerecha = () => {
-    if (carruselRef.current) {
-      carruselRef.current.scrollBy({ left: 432, behavior: 'smooth' });
-    }
-  };
-
   return (
-    <div className="carrusel-container">
-     
-      <div className="carrusel" ref={carruselRef}>
-        {referencias.map((ref, index) => (
-          <div key={index} className="carrusel-item"> 
-            <FacilubRef referencia={ref} />
-          </div>
-        ))}
-      </div>
-      <div className='carrusel-botonera'>
-            <button onClick={scrollIzquierda}>&lt;</button>
-            <button onClick={scrollDerecha}>&gt;</button>
-      </div>
-    </div>
+    <Carousel>
+      {referencias.map((ref, index) => (
+        <Carousel.Item key={index}>
+          <img
+            className="d-block w-100"
+            src={ref.imagen}
+            alt={ref.titulo}
+          />
+          <Carousel.Caption>
+            <h5>{ref.titulo}</h5>
+            <p>{ref.texto}</p>
+            <a href={ref.href} target="_blank" rel="noopener noreferrer">Cómo llegar</a>
+          </Carousel.Caption>
+        </Carousel.Item>
+      ))}
+    </Carousel>
   );
 };
 
 export default Carrusel;
+

@@ -7,13 +7,13 @@ import Carrusel from './components/FacilubCarrusel';
 function App() {
   return (
     <div className="App">
-      <FacilubHeader />
-      <main>
       
+      
+      <FacilubHeader />
       <Carrusel /> 
-       
-      </main>
       <FacilubFooter />
+    
+      
     </div>
     
   );
