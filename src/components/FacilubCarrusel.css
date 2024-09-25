@@ -1,43 +1,20 @@
 .carrusel-container {
-    display: flex;
-    flex-direction: column; /* Asegura que los elementos se dispongan en columnas */
-    align-items: center; /* Centra los elementos */
-    background-color: red; /* Color de fondo gris */
-  }
-  
-  .carrusel {
-    display: flex; /* Asegura que los elementos se dispongan en una fila */
-    overflow-x: hidden; /* Oculta el desbordamiento horizontal */
-    width: 423px; /* Ancho fijo del carrusel */
-    position: relative; /* Posicionamiento relativo para los botones */
-    background-color: green; 
-  }
-  
-  .carrusel-item {
-    flex: 0 0 200px;  /*Ancho fijo para cada item */
-    margin-right: 10px; /* Espacio entre los elementos */
-    background-color: rgb(199, 115, 12); 
-  }
-  
-  .carrusel-botonera {
-    display: flex; /* Usar flex para alinear los botones */
-    justify-content: center; /* Centrar los botones */
-    margin-top: 10px; /* Espacio entre el carrusel y los botones */
-  }
-  
-  .carrusel-botonera button {
-    background-color: gray; /* Color de fondo gris */
-    color: white; /* Color de texto blanco */
-    border: none; /* Sin bordes */
-    border-radius: 50%; /* Hacer los botones redondos */
-    width: 40px; /* Ancho del botón */
-    height: 40px; /* Alto del botón */
-    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
-    margin: 0 5px; /* Espacio entre los botones */
-    transition: background-color 0.3s; /* Transición suave para el color */
-  }
-  
-  .carrusel-botonera button:hover {
-    background-color: darkgray; /* Color al pasar el mouse */
-  }
+  min-width: 100%; /* Ajusta el ancho según lo necesites */
+  height: 100vh;
+  margin: auto; /* Centra el carrusel en la página */
+  background-color: black;
+}
+
+.carousel-item-content {
+  display: flex;
+  justify-content: center; /* Centra el contenido dentro del carrusel */
+  align-items: center;
+}
+
+.carousel-item img {
+  max-width: 100%; /* Asegura que las imágenes se ajusten al contenedor */
+}
+
+.carousel-caption {
+}
   

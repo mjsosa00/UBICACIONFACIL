@@ -1,5 +1,4 @@
 import React from 'react';
-import './FacilubRef.css';
 
 const FacilubRef = ({ referencia }) => {
   return (
