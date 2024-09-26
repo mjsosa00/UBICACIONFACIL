@@ -1,52 +1,46 @@
 .footer {
-  background-color: #4E6E4D;
-  /* Color verde óxido */
-  color: white;
+  background-color: #333; /* Color oscuro para un tono más serio */
+  color: #f5f5f5; /* Texto en un gris claro */
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 0px;
-  bottom: 0;
-  left: 0;
+  padding: 20px 0;
   width: 100%;
-  height: 100px;
+  font-family: Arial, sans-serif; /* Fuente más formal */
+  position: absolute; bottom:0; width: 100%
+}
+
+.footer .rights {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.8; /* Menor opacidad para un efecto sutil */
 }
 
 .footer nav ul {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .footer nav li {
-  display: inline;
-  margin: 0 15px;
-  cursor: pointer;
-}
-.navbarf{
-  list-style-type: none; 
-  padding: 0; 
-  margin: 0; 
-  display: flex; 
+  margin: 0 20px; /* Espaciado más amplio */
 }
 
-.navbarf li {
-  flex: 1; 
+.footer nav a {
+  color: #f5f5f5; 
+  text-decoration: none;
+  padding: 5px; /* Menos padding para una apariencia más sutil */
+  transition: color 0.3s; /* Transición suave para el color */
 }
 
-.navbarf a {
-display: block; 
-color: white; 
-text-align: center; 
-padding: 0px;
-text-decoration: none;
-background-color: olive;
+.footer nav a:hover {
+  color: #2eb4e5; /* Color más sutil al pasar el mouse */
+  text-decoration: underline; /* Subrayado al pasar el mouse para indicar acción */
 }
 
-.navbar a:hover {
-background-color: #2eb4e5; 
-}
+.footer-line {
 
-.puto{
-margin: 0%;
-padding: 0%;
-font-size: 14px;
+  border: solid #feffff;            /* Eliminar el borde por defecto */
+  height: 5px;            /* Altura de la línea */
+  background-color: #ffffff; /* Color de la línea */
+  margin-top: 8px;         /* Espacio arriba y abajo de la línea */
 }

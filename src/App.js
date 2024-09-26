@@ -6,16 +6,11 @@ import Carrusel from './components/FacilubCarrusel';
 
 function App() {
   return (
-    <div className="App">
-      
-      
+    <div> {/* Cambiado a "container" */}
       <FacilubHeader />
-      <Carrusel /> 
+      <Carrusel />
       <FacilubFooter />
-    
-      
     </div>
-    
   );
 }
 

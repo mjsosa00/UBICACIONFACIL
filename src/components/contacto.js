@@ -1,10 +1,9 @@
-// src/components/Header/FacilubHeader.js
 import React from 'react';
-import './FacilubHeader.css';
+import './contacto.css';
 
-const FacilubHeader = () => {
+const contacto = () => {
   return (
-    <header className="facilub-header">
+    <header className="contacto">
               <h1>Bienvenido a Ubicar Facil</h1>
       <nav>
         <ul className="navbar">
@@ -17,4 +16,4 @@ const FacilubHeader = () => {
   );
 };
 
-export default FacilubHeader;
+export default contacto;

@@ -1,47 +1,49 @@
-header {
-    background-color: #282c34;
-    padding: 1px;
-    color: white;
-    text-align: center;
-    height: 160px;
-    
-  }
-  h1{
-    height: 30px;
-    padding-bottom: 60px;
-    padding-top: 15px;
-  }
-  .navbar{
-    list-style-type: none; 
-    margin: 0; 
-    display: flex; 
-  }
-  .navbar li {
-    flex: 1; 
+/* src/components/Header/FacilubHeader.css */
+
+.facilub-header {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 1.5vh; /* Espaciado alrededor del header */
+}
+
+h1 {
+  margin: 20px;
+  padding: 1px 0 1px; /* Ajustes de espaciado */
+}
+
+.navbar {
+  list-style-type: none; /* Sin puntos en la lista */
+  margin: 0;
+  padding: 0; /* Reseteamos el padding */
+  display: flex;
+  justify-content: center; /* Centra los elementos en el navbar */
+}
+
+.navbar li {
+  flex: 1; /* Cada elemento toma el mismo espacio */
 }
 
 .navbar a {
-  display: block; 
-  color: white; 
-  text-align: center; 
-  padding: 10px; 
-  text-decoration: none; 
+  display: block; /* Ocupa todo el espacio del li */
+  color: white;
+  text-align: center; /* Centra el texto */
+  padding: 0px; /* Espaciado interno */
+  text-decoration: none; /* Sin subrayado */
 }
 
 .navbar a:hover {
-  background-color: #2eb4e5; 
+  background-color: #2eb4e5; /* Color al pasar el ratón */
 }
-  nav ul {
-    list-style-type: none;
-    padding: 0;
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: row; /* Cambia a columna en pantallas pequeñas */
   }
-  
-  nav li {
-    display: inline;
-    margin: 0 10px;
+  .navbar li {
+      margin: 4px 0; /* Espaciado entre elementos en móvil */
   }
-p{
-  padding: 0%;
-  margin: 0%;
 }
+
   
