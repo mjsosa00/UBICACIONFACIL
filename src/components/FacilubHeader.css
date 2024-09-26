@@ -1,7 +1,7 @@
 /* src/components/Header/FacilubHeader.css */
 
 .facilub-header {
-  background-color: #282c34;
+  background-color: #282C34;
   color: white;
   text-align: center;
   padding: 1.5vh; /* Espaciado alrededor del header */
@@ -33,7 +33,7 @@ h1 {
 }
 
 .navbar a:hover {
-  background-color: #2eb4e5; /* Color al pasar el ratón */
+  background-color: #4f4f4f; /* Color al pasar el ratón */
 }
 
 /* Estilos responsivos */

@@ -1,0 +1,48 @@
+.contacto {
+    padding: 20px;
+    background-color: #4f4f4f; /* Color de fondo claro */
+    border-radius: 8px; /* Bordes redondeados */
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 20px auto; /* Centrado en la página */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para un efecto elevado */
+}
+
+.contacto h2 {
+    text-align: center; /* Centra el título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    color: #333; /* Color del texto */
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en columna */
+}
+
+.contacto label {
+    margin-bottom: 5px; /* Espacio debajo de las etiquetas */
+    font-weight: bold; /* Negrita para las etiquetas */
+}
+
+.contacto input,
+.contacto textarea {
+    padding: 10px; /* Espacio interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-bottom: 15px; /* Espacio entre campos */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+.contacto button {
+    padding: 10px 15px; /* Espacio interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: #282C34; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave al cambiar el color */
+}
+
+.contacto button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+}

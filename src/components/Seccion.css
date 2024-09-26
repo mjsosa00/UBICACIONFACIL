@@ -1,0 +1,22 @@
+.contenido {
+    padding: 20px;
+    text-align: center; /* Centra el texto */
+    background-color: #4f4f4f;
+}
+
+.foto-contenedor {
+    display: flex; /* Alinea los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin: 20px 0; /* Espacio vertical entre secciones */
+}
+
+.imagen {
+    max-width: 200px; /* Ajusta el tamaño de la imagen */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    margin-left: 20px;
+}
+
+.texto-lado {
+    max-width: 300px; /* Opcional: limita el ancho del texto */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
