@@ -33,7 +33,7 @@ h1 {
 }
 
 .navbar a:hover {
-  background-color: #4f4f4f; /* Color al pasar el ratón */
+  color: steelblue;/* Color al pasar el ratón */
 }
 
 /* Estilos responsivos */

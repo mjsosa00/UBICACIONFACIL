@@ -1,6 +1,6 @@
 .contacto {
     padding: 20px;
-    background-color: #4f4f4f; /* Color de fondo claro */
+    background-color: #22624f; /* Color de fondo claro */
     border-radius: 8px; /* Bordes redondeados */
     max-width: 600px; /* Ancho máximo del formulario */
     margin: 20px auto; /* Centrado en la página */
@@ -10,7 +10,7 @@
 .contacto h2 {
     text-align: center; /* Centra el título */
     margin-bottom: 20px; /* Espacio debajo del título */
-    color: #333; /* Color del texto */
+    color: #000000; /* Color del texto */
 }
 
 .contacto form {
@@ -32,17 +32,26 @@
     font-size: 16px; /* Tamaño de fuente */
 }
 
-.contacto button {
-    padding: 10px 15px; /* Espacio interno del botón */
-    border: none; /* Sin borde */
-    border-radius: 4px; /* Bordes redondeados */
-    background-color: #282C34; /* Color de fondo del botón */
-    color: white; /* Color del texto del botón */
-    font-size: 16px; /* Tamaño de fuente del botón */
-    cursor: pointer; /* Cambia el cursor al pasar el mouse */
-    transition: background-color 0.3s; /* Transición suave al cambiar el color */
-}
+
 
 .contacto button:hover {
-    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+    background-color: #34fd29; /* Color más oscuro al pasar el mouse */
 }
+
+.contacto button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #22624f;
+    cursor: pointer;
+    border: 1px solid #26a742;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #26a742, -6px -6px 12px #26a742;
+  }
+  
+.contacto button:active {
+    
+    color: #ffffff;
+    box-shadow: inset 4px 4px 12px #26a742, inset -4px -4px 12px #26a742;
+  }

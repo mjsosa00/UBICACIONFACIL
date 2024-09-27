@@ -1,0 +1,22 @@
+
+
+h2 {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    text-align: center;
+
+}
+
+div .container{
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgba(127, 255, 212, 0.2);
+
+}
+
+p{
+    color: white;
+    text-align: center;
+
+}

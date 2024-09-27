@@ -1,5 +1,6 @@
 import React from 'react';
 import './FacilubFooter.css';
+import { Link } from 'react-router-dom';
 
 const FacilubFooter = () => {
   return (
@@ -8,9 +9,10 @@ const FacilubFooter = () => {
       <p className="rights">&copy; 2024 Facilub. Todos los derechos reservados.</p>
       <nav>
         <ul className="navbar">
-          <li><a href="privacy.html">Política de privacidad</a></li>
-          <li><a href="terms.html">Términos de servicio</a></li>
-          <li><a href="contact.html">Contacto</a></li>
+        <li><Link to="PoliticaDePrivacidad">Política de privacidad</Link></li>
+          <li><Link to="/TerminosYServicios">Términos de servicio</Link></li>
+          <li><Link to="/Contacto">Contacto</Link></li>
+
         </ul>
       </nav>
     </footer>

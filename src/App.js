@@ -9,6 +9,9 @@ import Inicio from './components/Inicio'; // Asegúrate de que este archivo exis
 import SobreNosotros from './components/SobreNosotros'; // Asegúrate de que este archivo exista
 import Contacto from './components/Contacto'; // Asegúrate de que este archivo exista
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import TerminosYServicios from './components/TerminosYServicios';
+import PoliticaDePrivacidad from './components/PoliticaDePrivacidad';
+import Navbar from './components/NavBar';
 
 function App() {
   return (
@@ -23,22 +26,27 @@ function Main() {
 
   return (
     <div>
+      
       <FacilubHeader />
+      <Navbar />
 
       <Routes>
+        
         <Route path="/" element={<Inicio />} />
         <Route path="/sobrenosotros" element={<SobreNosotros />} />
         <Route path="/contacto" element={<Contacto />} />
+        <Route path="/TerminosYServicios" element={<TerminosYServicios/>} />
+        <Route path="/PoliticaDePrivacidad" element={<PoliticaDePrivacidad/>} />
       </Routes>
 
       {/* Mostrar el carrusel solo en la página de inicio */}
+      
       {location.pathname === '/' && <FacilubCarrusel />}
-
-
-        <Seccion />
-     
+      {location.pathname=== '/' && <Seccion/>}
+      
 
       <FacilubFooter />
+      
     </div>
   );
 }

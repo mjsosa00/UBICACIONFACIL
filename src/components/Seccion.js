@@ -4,7 +4,7 @@ import './Seccion.css';
 const Seccion = () => {
     return (
         <section className="contenido">
-            <h2>Más Información</h2>
+            <h2>Restaurantes</h2>
             <p>Aquí puedes incluir texto adicional sobre tus servicios o productos.</p>
             
             <div className="foto-contenedor">
