@@ -32,5 +32,64 @@
   border-radius: 5px;
 }
 
+.carousel-indicators [data-bs-target] {
+  
+  
+}
+
+.carousel-indicators .active {
+  
+}
+
+
+
+
+.boton {
+  width: 160px;
+  height: 30px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  color: rgb(19, 19, 19);
+  font-weight: 600;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  transition-duration: .2s;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+  padding-left: 8px;
+  transition-duration: .5s;
+  margin-left: 100px;
+}
+
+.svgIcon {
+  height: 25px;
+  transition-duration: 1.5s;
+}
+
+.bell path {
+  fill: rgb(19, 19, 19);
+}
+
+
+
+.boton :hover {
+  background-color: rgb(200, 20, 255);
+  transition-duration: .5s;
+}
+
+.boton :active {
+  transform: scale(0.97);
+  transition-duration: .2s;
+}
+
+.boton:hover .svgIcon {
+  transform: rotate(250deg);
+  transition-duration: 1.5s;
+}
 
   
