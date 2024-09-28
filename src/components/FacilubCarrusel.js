@@ -30,7 +30,7 @@ const Carrusel = () => {
             <h5>{ref.titulo}</h5>
             <p>{ref.texto}</p>
            
-            <span role="img" aria-label="ubicación"></span>
+            <span role="img" aria-label="ubicación" className='imagen'></span>
             <br></br>
             <button class="boton" onClick={() => window.open(ref.href, "_blank", "noopener,noreferrer")}>
         <svg class="svgIcon" viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg">

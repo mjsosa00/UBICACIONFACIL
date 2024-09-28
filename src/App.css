@@ -1,16 +1,2 @@
-.container {
-    flex: 1; /* Permite que el contenedor principal ocupe el espacio restante */
-    display: flex; /* Asegura que los elementos dentro se alineen correctamente */
-    flex-direction: column; /* Permite un layout vertical */
-    margin: 0; /* Asegura que no haya márgenes */
-    padding: 0; /* Asegura que no haya padding */
-    width: 100%; /* Asegura que ocupe todo el ancho */
-  }
-  
-  .footer {
-    background-color: #333; /* Color oscuro para el footer */
-    color: #f5f5f5; /* Texto claro */
-    text-align: center;
-    padding: 20px 0; /* Espaciado vertical */
-  }
+
   

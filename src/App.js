@@ -11,7 +11,7 @@ import Contacto from './components/Contacto'; // Asegúrate de que este archivo 
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import TerminosYServicios from './components/TerminosYServicios';
 import PoliticaDePrivacidad from './components/PoliticaDePrivacidad';
-import Navbar from './components/NavBar';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function Main() {
   return (
     <div>
       
-      <FacilubHeader />
+     
       <Navbar />
 
       <Routes>

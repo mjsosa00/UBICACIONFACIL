@@ -16,7 +16,7 @@
 }
 
 .carousel-item img {
-  max-width: 100%;
+  max-width: 409px;
   height: 400px; /* Mantiene la relación de aspecto */
   margin-bottom: -120px;
 }
@@ -31,6 +31,9 @@
   padding: 10px;
   border-radius: 5px;
 }
+
+
+
 
 .carousel-indicators [data-bs-target] {
   
