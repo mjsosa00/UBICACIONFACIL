@@ -31,6 +31,7 @@ const Burguer = styled.div`
     position: relative;
     transition: .1s;
     margin: 10px 10px;
+    top: 3px;
     cursor: pointer;
     display: inline-block;
   }

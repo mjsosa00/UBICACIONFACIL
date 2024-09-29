@@ -18,7 +18,14 @@ function Navbar() {
 
   return (
     <NavContainer>
-      <h2>Ubicar Facil <span></span></h2>
+      
+      <h6 className='text-uppercase fw-bold mb- ms-3 mt-1' style={{ color: '#6C757D'}}>
+      <img 
+        src="https://cdn.discordapp.com/attachments/1179643622153527347/1290007581208871018/UBIFACIL_blanco.png?ex=66fae4ae&is=66f9932e&hm=c81b8785c16a793154b4cca2684b8071af37c182081ad5cc2109e9a193edc544&" 
+        alt="Logo" 
+        style={{ width: '50px', height: 'auto', marginRight: '8px', marginTop: '2px' }} 
+      />
+    </h6>
       <div className={`links ${clicked ? 'active' : ''}`}>
         <Link to="/" onClick={handleLinkClick}>Inicio</Link>
         <Link to="/SobreNosotros" onClick={handleLinkClick}>Sobre Nosotros</Link>
@@ -37,7 +44,6 @@ export default Navbar;
 
 
 const NavContainer = styled.nav`
-
 
 
   h2{

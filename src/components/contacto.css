@@ -1,16 +1,17 @@
 .contacto {
-    padding: 20px;
-    background-color: #22624f; /* Color de fondo claro */
-    border-radius: 8px; /* Bordes redondeados */
+    padding: 30px;
+    background-color: #f8f9fa; /* Color de fondo claro */
+    border-radius: 12px; /* Bordes redondeados */
     max-width: 600px; /* Ancho máximo del formulario */
-    margin: 20px auto; /* Centrado en la página */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para un efecto elevado */
+    margin: 40px auto; /* Centrado en la página */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra para un efecto elevado */
 }
 
 .contacto h2 {
     text-align: center; /* Centra el título */
-    margin-bottom: 20px; /* Espacio debajo del título */
-    color: #000000; /* Color del texto */
+    margin-bottom: 30px; /* Espacio debajo del título */
+    color: #343a40; /* Color del texto */
+    font-family: 'Arial', sans-serif; /* Fuente */
 }
 
 .contacto form {
@@ -18,40 +19,62 @@
     flex-direction: column; /* Organiza los elementos en columna */
 }
 
+.contacto .form-group {
+    margin-bottom: 20px; /* Espacio entre campos */
+}
+
 .contacto label {
-    margin-bottom: 5px; /* Espacio debajo de las etiquetas */
+    margin-bottom: 8px; /* Espacio debajo de las etiquetas */
     font-weight: bold; /* Negrita para las etiquetas */
+    color: #495057; /* Color del texto de las etiquetas */
 }
 
 .contacto input,
 .contacto textarea {
-    padding: 10px; /* Espacio interno */
-    border: 1px solid #ccc; /* Borde gris claro */
-    border-radius: 4px; /* Bordes redondeados */
+    padding: 12px; /* Espacio interno */
+    border: 1px solid #ced4da; /* Borde gris claro */
+    border-radius: 6px; /* Bordes redondeados */
     margin-bottom: 15px; /* Espacio entre campos */
     font-size: 16px; /* Tamaño de fuente */
+    transition: border-color 0.3s; /* Transición suave */
 }
 
+.contacto input:focus,
+.contacto textarea:focus {
+    border-color: #3b7cc1; /* Color del borde al enfocar */
+    outline: none; /* Sin contorno */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Sombra al enfocar */
+}
 
-
-.contacto button:hover {
-    background-color: #34fd29; /* Color más oscuro al pasar el mouse */
+.contacto .form-control:invalid {
+    border-color: #dc3545; /* Color del borde si hay un error */
 }
 
 .contacto button {
-    color: #090909;
-    padding: 0.7em 1.7em;
+    color: #ffffff; /* Color del texto del botón */
+    padding: 10px 20px;
     font-size: 18px;
-    border-radius: 0.5em;
-    background: #22624f;
+    border-radius: 6px;
+    background: #049CB3; /* Color de fondo del botón */
+    border: none; /* Sin borde */
     cursor: pointer;
-    border: 1px solid #26a742;
-    transition: all 0.3s;
-    box-shadow: 6px 6px 12px #26a742, -6px -6px 12px #26a742;
-  }
-  
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del botón */
+}
+
+.contacto button:hover {
+    background-color: #213341; /* Color más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
 .contacto button:active {
-    
-    color: #ffffff;
-    box-shadow: inset 4px 4px 12px #26a742, inset -4px -4px 12px #26a742;
-  }
+    background-color: #1e7e34; /* Color aún más oscuro al hacer clic */
+    transform: translateY(0); /* Regresar a la posición original */
+}
+.error-message {
+    position: relative;
+    color: #dc3545; /* Color rojo para errores */
+    font-size: 14px; /* Tamaño de fuente */
+    bottom: 8px;
+    padding-top: 0;
+}

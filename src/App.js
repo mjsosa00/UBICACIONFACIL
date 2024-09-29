@@ -45,9 +45,9 @@ function Main() {
       {/* Mostrar el carrusel solo en la página de inicio */}
       {location.pathname === '/' && <Carousel />}
       {location.pathname=== '/' && <Seccion/>}
+      {location.pathname=== '/' && <Card/>}
       
 
-      <Card />
       <Footer />
       
     </>
