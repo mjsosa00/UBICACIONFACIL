@@ -37,6 +37,9 @@ export default Navbar;
 
 
 const NavContainer = styled.nav`
+
+
+
   h2{
     color: white;
     font-weight: 400;

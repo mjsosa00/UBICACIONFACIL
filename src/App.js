@@ -1,9 +1,8 @@
 // src/services/App.js
 import React from 'react';
 import './App.css';
-import FacilubHeader from './components/FacilubHeader';
-import FacilubFooter from './components/FacilubFooter';
-import FacilubCarrusel from './components/FacilubCarrusel';
+import Footer from './components/Footer';
+import Carousel from './components/Carousel';
 import Seccion from './components/Seccion';
 import Inicio from './components/Inicio'; // Asegúrate de que este archivo exista
 import SobreNosotros from './components/SobreNosotros'; // Asegúrate de que este archivo exista
@@ -12,6 +11,10 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import TerminosYServicios from './components/TerminosYServicios';
 import PoliticaDePrivacidad from './components/PoliticaDePrivacidad';
 import Navbar from './components/Navbar';
+import Card from './components/Card';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -25,7 +28,7 @@ function Main() {
   const location = useLocation();
 
   return (
-    <div>
+    <>
       
      
       <Navbar />
@@ -40,14 +43,14 @@ function Main() {
       </Routes>
 
       {/* Mostrar el carrusel solo en la página de inicio */}
-      
-      {location.pathname === '/' && <FacilubCarrusel />}
+      {location.pathname === '/' && <Carousel />}
       {location.pathname=== '/' && <Seccion/>}
       
 
-      <FacilubFooter />
+      <Card />
+      <Footer />
       
-    </div>
+    </>
   );
 }
 
