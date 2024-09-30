@@ -71,10 +71,10 @@
     background-color: #1e7e34; /* Color aún más oscuro al hacer clic */
     transform: translateY(0); /* Regresar a la posición original */
 }
-.error-message {
+.contacto .error-message {
     position: relative;
-    color: #dc3545; /* Color rojo para errores */
-    font-size: 14px; /* Tamaño de fuente */
+    color: #dc3545; 
+    font-size: 14px; 
     bottom: 8px;
     padding-top: 0;
 }

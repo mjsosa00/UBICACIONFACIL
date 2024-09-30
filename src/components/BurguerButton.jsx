@@ -24,6 +24,8 @@ function BurguerButton(props) {
 export default BurguerButton
 
 const Burguer = styled.div`
+
+
  /* nav-icon-1 */
   .nav-icon-1{
     width: 30px;

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import BurguerButton from './BurguerButton';
 import { Link } from 'react-router-dom';
+import './Navbar.css'; // Importa el CSS
 
 function Navbar() {
   const [clicked, setClicked] = useState(false);
@@ -18,7 +19,7 @@ function Navbar() {
 
   return (
     <NavContainer>
-      
+              <Link to="/" onClick={handleLinkClick}>
       <h6 className='text-uppercase fw-bold mb- ms-3 mt-1' style={{ color: '#6C757D'}}>
       <img 
         src="https://cdn.discordapp.com/attachments/1179643622153527347/1290007581208871018/UBIFACIL_blanco.png?ex=66fae4ae&is=66f9932e&hm=c81b8785c16a793154b4cca2684b8071af37c182081ad5cc2109e9a193edc544&" 
@@ -26,6 +27,7 @@ function Navbar() {
         style={{ width: '50px', height: 'auto', marginRight: '8px', marginTop: '2px' }} 
       />
     </h6>
+    </Link>
       <div className={`links ${clicked ? 'active' : ''}`}>
         <Link to="/" onClick={handleLinkClick}>Inicio</Link>
         <Link to="/SobreNosotros" onClick={handleLinkClick}>Sobre Nosotros</Link>
@@ -44,7 +46,6 @@ export default Navbar;
 
 
 const NavContainer = styled.nav`
-
 
   h2{
     color: white;
@@ -132,4 +133,17 @@ const BgDiv = styled.div`
     background-image: linear-gradient(#213341 20%, #049CB3);
     
   }
+    .react-multiple-carousel__arrow {
+    position: absolute;
+    outline: 0;
+    transition: all .5s;
+    border-radius: 35px;
+    z-index: 0;
+    border: 0;
+    background: rgba(0, 0, 0, 0.5);
+    min-width: 43px;
+    min-height: 43px;
+    opacity: 1;
+    cursor: pointer;
+}
 `

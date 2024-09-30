@@ -42,7 +42,7 @@ const Contacto = () => {
                                 value={values.nombre}
                                 onChange={handleChange}
                                 isInvalid={!!errors.nombre && touched.nombre}
-                                placeholder="Nombre y Apellido"
+                                placeholder="Nombre"
                             />
                             <Form.Control.Feedback type="invalid" className="error-message">
                                 {errors.nombre}
