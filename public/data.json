@@ -1,38 +1,38 @@
 [
     {
-      "titulo": "Título de la Referencia",
-      "texto": "Este es un texto descriptivo sobre la referencia.",
+      "titulo": "El Trapiche",
+      "texto": "El Trapiche es una de las principales localidades turísticas de la provincia de San Luis.",
       "imagen": "https://www.villademerlo.com.ar/wp-content/uploads/2014/08/El-Trapiche-San-Luis.jpg",
       "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
     },
     {
-      "titulo": "Título de la Referencia",
-      "texto": "Este es un texto descriptivo sobre la referencia.",
-      "imagen": "https://lh5.googleusercontent.com/p/AF1QipOZ2IxreKkshl2YtUzN0RAc6T5v3qWubiyM3D3K=w408-h306-k-no",
+      "titulo": "Riocito",
+      "texto": "Se encuentra al pie de las Sierras de San Luis.",
+      "imagen": "https://scontent.fluq2-1.fna.fbcdn.net/v/t1.6435-9/117206457_2656550431253970_6440093287376556946_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=13d280&_nc_ohc=zkYTeKH2bKwQ7kNvgFsiiwJ&_nc_ht=scontent.fluq2-1.fna&_nc_gid=AdcYpYeQqdW1F7sK2P09roO&oh=00_AYDnMtcDyWVIsOq8ykb1EGbchH9krZoqsie3SC782UTmYQ&oe=671CBD0F",
+      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
+    },
+    {
+      "titulo": "Rio Grande",
+      "texto": "Río Grande es una localidad del departamento Coronel Pringles en la provincia de San Luis.",
+      "imagen": "https://s.ruta0.net/cache/img680/24345.jpg",
+      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
+    },
+    {
+      "titulo": "La Florida",
+      "texto": "La Florida, San Luis, es un paraíso natural, donde montañas y ríos crean un paisaje celestial.",
+      "imagen": "https://visitarsanluis.com/storage/app/uploads/public/60d/355/bad/thumb_4313_576_415_0_0_crop.webp",
+      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
+    },
+    {
+      "titulo": "La Carolina",
+      "texto": "La Carolina es un refugio sereno, donde la belleza natural y la historia se entrelazan en armonía.",
+      "imagen": "https://agenciasanluis.com/wp-content/uploads/2023/10/DISTINCION-A-LA-CAROLINA-2.jpeg",
       "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
     },
     {
       "titulo": "Título de la Referencia",
       "texto": "Este es un texto descriptivo sobre la referencia.",
-      "imagen": "https://lh5.googleusercontent.com/p/AF1QipOZ2IxreKkshl2YtUzN0RAc6T5v3qWubiyM3D3K=w408-h306-k-no",
-      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
-    },
-    {
-      "titulo": "Título de la Referencia",
-      "texto": "Este es un texto descriptivo sobre la referencia.",
-      "imagen": "https://lh5.googleusercontent.com/p/AF1QipOZ2IxreKkshl2YtUzN0RAc6T5v3qWubiyM3D3K=w408-h306-k-no",
-      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
-    },
-    {
-      "titulo": "Título de la Referencia",
-      "texto": "Este es un texto descriptivo sobre la referencia.",
-      "imagen": "https://lh5.googleusercontent.com/p/AF1QipOZ2IxreKkshl2YtUzN0RAc6T5v3qWubiyM3D3K=w408-h306-k-no",
-      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
-    },
-    {
-      "titulo": "Título de la Referencia",
-      "texto": "Este es un texto descriptivo sobre la referencia.",
-      "imagen": "https://lh5.googleusercontent.com/p/AF1QipOZ2IxreKkshl2YtUzN0RAc6T5v3qWubiyM3D3K=w408-h306-k-no",
+      "imagen": "https://cdn.discordapp.com/attachments/1289212639477760033/1289562795037429832/GXYmxkoWYAEg69V.jpg?ex=66f94671&is=66f7f4f1&hm=3a9204403f717d64ee548b70242f1e91692059ee8aabacdb96b51af6d02b6d3b&",
       "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
     }
   ]
