@@ -1,6 +1,6 @@
 // src/components/Contacto.js
 import React from 'react';
-import './Contacto.css'; // Importa el CSS
+import './contacto.css'; // Importa el CSS
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import * as formik from 'formik';

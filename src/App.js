@@ -6,7 +6,7 @@ import Carousel from './components/Carousel';
 import Seccion from './components/Seccion';
 import Inicio from './components/Inicio'; // Asegúrate de que este archivo exista
 import SobreNosotros from './components/SobreNosotros'; // Asegúrate de que este archivo exista
-import Contacto from './components/Contacto'; // Asegúrate de que este archivo exista
+import Contacto from './components/contacto'; // Asegúrate de que este archivo exista
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import TerminosYServicios from './components/TerminosYServicios';
 import PoliticaDePrivacidad from './components/PoliticaDePrivacidad';
