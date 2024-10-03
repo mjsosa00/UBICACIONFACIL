@@ -3,3 +3,32 @@ body, html {
     padding: 0;
     overflow-x: hidden; /* Previene desbordamiento horizontal */
 }
+
+
+/* App.css */
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Para que el contenedor ocupe todo el alto */
+  }
+  
+  header {
+    z-index: 10; /* Asegúrate de que el header esté encima de otros elementos */
+  }
+  
+  .main-content {
+    flex-grow: 1; /* Para que el contenido principal ocupe el espacio disponible */
+    padding: 20px; /* Espacio alrededor del contenido */
+  }
+  
+  .carousel-container {
+    margin-bottom: 20px; /* Espacio inferior para separar del siguiente componente */
+    top: 200px;
+  }
+ 
+  /* Ajusta el carrusel y otros componentes */
+  .carousel {
+    display: block; /* Asegúrate de que se muestre como bloque */
+    width: 100%; /* Asegúrate de que ocupe el 100% del ancho */
+  }

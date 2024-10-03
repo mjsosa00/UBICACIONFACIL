@@ -30,9 +30,24 @@
       "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
     },
     {
-      "titulo": "Título de la Referencia",
+      "titulo": "Manitas",
       "texto": "Este es un texto descriptivo sobre la referencia.",
-      "imagen": "https://cdn.discordapp.com/attachments/1289212639477760033/1289562795037429832/GXYmxkoWYAEg69V.jpg?ex=66f94671&is=66f7f4f1&hm=3a9204403f717d64ee548b70242f1e91692059ee8aabacdb96b51af6d02b6d3b&",
+      "imagen": "https://media.istockphoto.com/id/636379014/es/foto/manos-la-formaci%C3%B3n-de-una-forma-de-coraz%C3%B3n-con-silueta-al-atardecer.jpg?s=612x612&w=0&k=20&c=R2BE-RgICBnTUjmxB8K9U0wTkNoCKZRi-Jjge8o_OgE=",
+      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
+    }
+
+    ,
+    {
+      "titulo": "Boquita",
+      "texto": "Este es un texto descriptivo sobre la referencia.",
+      "imagen": "https://pbs.twimg.com/profile_images/1778429846068072448/k0oxslkM_400x400.jpg",
+      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
+    }
+    ,
+    {
+      "titulo": "San Luis",
+      "texto": "Este es un texto descriptivo sobre la referencia.",
+      "imagen": "https://i.blogs.es/0ca9a6/aa/1366_2000.jpeg",
       "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
     }
   ]
