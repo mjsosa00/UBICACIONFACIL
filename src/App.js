@@ -4,12 +4,13 @@ import './App.css';
 import Footer from './components/Footer';
 import Carousel from './components/Carousel';
 import Seccion from './components/Seccion';
-import Inicio from './components/Inicio'; // Asegúrate de que este archivo exista
-import SobreNosotros from './components/SobreNosotros'; // Asegúrate de que este archivo exista
-import Contacto from './components/contacto'; // Asegúrate de que este archivo exista
+import Inicio from './components/Inicio';
+import SobreNosotros from './components/SobreNosotros';
+import Contacto from './components/contacto';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import TerminosYServicios from './components/TerminosYServicios';
 import PoliticaDePrivacidad from './components/PoliticaDePrivacidad';
+import FacilubCarrusel from './components/FacilubCarrusel';
 import Navbar from './components/Navbar';
 import Card from './components/Card';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
@@ -19,7 +20,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <Router>
-      <Main />
+      <div className="app-container">
+        <header>
+          <Navbar />
+        </header>
+        <main className="main-content">
+          <Main />
+        </main>
+        <Footer />
+      </div>
     </Router>
   );
 }
@@ -29,30 +38,20 @@ function Main() {
 
   return (
     <>
-      
-     
-      <Navbar />
+      {location.pathname === '/' && (
+            <FacilubCarrusel />
+
+      )}
 
       <Routes>
-        
         <Route path="/" element={<Inicio />} />
         <Route path="/sobrenosotros" element={<SobreNosotros />} />
         <Route path="/contacto" element={<Contacto />} />
-        <Route path="/TerminosYServicios" element={<TerminosYServicios/>} />
-        <Route path="/PoliticaDePrivacidad" element={<PoliticaDePrivacidad/>} />
+        <Route path="/TerminosYServicios" element={<TerminosYServicios />} />
+        <Route path="/PoliticaDePrivacidad" element={<PoliticaDePrivacidad />} />
       </Routes>
-
-      {/* Mostrar el carrusel solo en la página de inicio */}
-      {location.pathname === '/' && <Carousel />}
-      {location.pathname=== '/' && <Seccion/>}
-      {location.pathname=== '/' && <Card/>}
-      
-
-      <Footer />
-      
     </>
   );
 }
 
 export default App;
-

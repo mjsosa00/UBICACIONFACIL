@@ -1,98 +1,268 @@
-.carrusel-container {
-  position: fixed;
+.custom-carousel * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.custom-carousel {
+  background: #eaeaea;
+  overflow: hidden;
+}
+
+.custom-carousel .container {
+  position: relative; /* Cambiado a 'relative' o puedes probar 'static' */
+  top: 0; /* Quita las transformaciones de centrado */
+  left: 0;
+  transform: none;
+  width: 100%; /* Ajusta el ancho al contenedor padre */
+  height: auto; /* Deja que la altura sea ajustada por su contenido */
+  background: #f5f5f5;
+  box-shadow: 0 30px 50px #dbdbdb;
+}
+
+
+
+.custom-carousel .slide .item {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  border-radius: 20px;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.custom-carousel .slide .item:nth-child(1),
+.custom-carousel .slide .item:nth-child(2) {
   top: 0;
   left: 0;
+  transform: translate(0, 0);
+  border-radius: 0;
   width: 100%;
-  height: 100vh;
-  background-color: black;
-  overflow: hidden; /* Para evitar barras de desplazamiento */
+  height: 100%;
 }
 
-.carousel-item-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%; /* Para que ocupe toda la altura del contenedor */
-}
-
-.carousel-item img {
-  max-width: 409px;
-  height: 400px; /* Mantiene la relación de aspecto */
-  margin-bottom: -120px;
-}
-
-.carousel-caption {
-  position: relative; /* Para posicionar sobre la imagen */
-  bottom: 40px;
+.custom-carousel .slide .item:nth-child(3) {
   left: 50%;
-  transform: translateX(-50%);
-  color: white;
-  background-color: rgba(0, 0, 0, 0.231);
-  padding: 10px;
-  border-radius: 5px;
 }
 
-
-
-
-.carousel-indicators [data-bs-target] {
-  
-  
+.custom-carousel .slide .item:nth-child(4) {
+  left: calc(50% + 220px);
 }
 
-.carousel-indicators .active {
-  
+.custom-carousel .slide .item:nth-child(5) {
+  left: calc(50% + 440px);
 }
 
+.custom-carousel .slide .item:nth-child(n + 6) {
+  left: calc(50% + 660px);
+  opacity: 0;
+}
 
+.custom-carousel .item .content {
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  width: 300px;
+  text-align: left;
+  color: #eee;
+  transform: translate(0, -50%);
+  font-family: system-ui;
+  display: none;
+}
 
+.custom-carousel .slide .item:nth-child(2) .content {
+  display: block;
+}
 
-.boton {
-  width: 160px;
-  height: 30px;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 10px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 15px;
-  color: rgb(19, 19, 19);
-  font-weight: 600;
+.custom-carousel .content .name {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 0;
+  animation: animate 1s ease-in-out 1 forwards;
+}
+
+.custom-carousel .content .des {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  opacity: 0;
+  animation: animate 1s ease-in-out 0.3s 1 forwards;
+}
+
+.custom-carousel .content button {
+  padding: 10px 20px;
   border: none;
-  position: relative;
   cursor: pointer;
-  transition-duration: .2s;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
-  padding-left: 8px;
-  transition-duration: .5s;
-  margin-left: 100px;
+  opacity: 0;
+  animation: animate 1s ease-in-out 0.6s 1 forwards;
 }
 
-.svgIcon {
-  height: 25px;
-  transition-duration: 1.5s;
+@keyframes animate {
+  from {
+    opacity: 0;
+    transform: translate(0, 100px);
+    filter: blur(33px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+    filter: blur(0);
+  }
 }
 
-.bell path {
-  fill: rgb(19, 19, 19);
+.custom-carousel .button {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
 }
 
-
-
-.boton :hover {
-  background-color: rgb(200, 20, 255);
-  transition-duration: .5s;
+.custom-carousel .button button {
+  width: 40px;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+  border: 1px solid #000;
+  transition: 0.3s;
 }
 
-.boton :active {
-  transform: scale(0.97);
-  transition-duration: .2s;
+.custom-carousel .button button:hover {
+  background: #ababab;
+  color: #fff;
 }
 
-.boton:hover .svgIcon {
-  transform: rotate(250deg);
-  transition-duration: 1.5s;
+/* Media Query para dispositivos móviles */
+@media (max-width: 768px) {
+  .custom-carousel .container {
+    width: 100%;
+    height: auto;
+    position: static; /* Quita el position absolute */
+    transform: none; /* Elimina el translate */
+    margin: 0 auto; /* Centra el carrusel de forma automática */
+    box-shadow: none;
+  }
+
+  .custom-carousel .button button{
+    z-index: 20;
+    position: relative;
+    margin-top: 10px; /* Espacio adicional sobre los botones */
+
+  }
+  .custom-carousel .slide .item {
+    width: 90%;
+    height: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+
+  .custom-carousel .slide .item:nth-child(1),
+  .custom-carousel .slide .item:nth-child(2) {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 0;
+    width: 100%;
+    height: 200px;
+  }
+
+  .custom-carousel .slide .item:nth-child(3),
+  .custom-carousel .slide .item:nth-child(4),
+  .custom-carousel .slide .item:nth-child(5) {
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+
+  .custom-carousel .item .content {
+    z-index: 10;
+    top: 60%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+
+  .custom-carousel .button {
+    position: relative;
+    bottom: -1px;
+  }
+
+  .custom-carousel .button button {
+    width: 50px;
+    height: 45px;
+    margin: 0 10px;
+  }
+
+  .custom-carousel .content .name {
+    font-size: 24px;
+  }
+
+  .custom-carousel .content .des {
+    font-size: 14px;
+  }
+
+  .custom-carousel .content button {
+    font-size: 12px;
+  }
 }
 
-  
+/* Media Query para pantallas más pequeñas (teléfonos móviles) */
+@media (max-width: 480px) {
+  .custom-carousel .container {
+    width: 100%;
+    height: auto;
+  }
+
+  .custom-carousel .slide .item {
+    height: 150px;
+    top: 80px;
+    bottom: 200px;
+  }
+
+  .item {
+    margin: 0px;
+  }
+
+  .custom-carousel .slide .item:nth-child(1),
+  .custom-carousel .slide .item:nth-child(2) {
+    top: 77px;
+  }
+
+  .custom-carousel .item .content {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
+
+  .custom-carousel .content .name {
+    position: absolute;
+    font-size: 18px;
+    z-index: 10000;
+  }
+
+  .custom-carousel .content .des {
+    font-size: 12px;
+  }
+
+  .custom-carousel .content button {
+    font-size: 10px;
+    padding: 8px 16px;
+  }
+
+  .custom-carousel .button button {
+    width: 40px;
+    height: 40px;
+    margin: 0 50px;
+  }
+}
