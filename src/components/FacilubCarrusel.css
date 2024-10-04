@@ -219,6 +219,11 @@
   .custom-carousel .content button {
     font-size: 12px;
   }
+
+  .custom-carousel .slide .item:nth-child(n + 6) {
+    left: 0;
+    opacity: 0;
+  }
 }
 
 /* Media Query para pantallas más pequeñas (teléfonos móviles) */
@@ -271,6 +276,10 @@
     height: 40px;
     margin: 0 50px;
     bottom: 44px;
+  }
+  .custom-carousel .slide .item:nth-child(n + 6) {
+    left: 0;
+    opacity: 0;
   }
 }
 
