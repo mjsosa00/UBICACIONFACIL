@@ -7,20 +7,20 @@
 .custom-carousel {
   background: #eaeaea;
   overflow: hidden;
+  height: 835px; /* Ajusta la altura del carrusel según sea necesario */
+  position: static; /* Para mantener el flujo del layout */
 }
 
 .custom-carousel .container {
-  position: relative; /* Cambiado a 'relative' o puedes probar 'static' */
-  top: 0; /* Quita las transformaciones de centrado */
-  left: 0;
-  transform: none;
-  width: 100%; /* Ajusta el ancho al contenedor padre */
-  height: auto; /* Deja que la altura sea ajustada por su contenido */
+  width: 100%; /* Mantener el ancho completo */
+  height: 100%; /* Ocupa toda la altura del contenedor del carrusel */
   background: #f5f5f5;
   box-shadow: 0 30px 50px #dbdbdb;
 }
 
-
+.custom-carousel .slide {
+  height: 100%; /* Asegúrate de que las diapositivas ocupen toda la altura del contenedor */
+}
 
 .custom-carousel .slide .item {
   width: 200px;
@@ -139,6 +139,10 @@
 
 /* Media Query para dispositivos móviles */
 @media (max-width: 768px) {
+
+  .custom-carousel {
+    height: 200px;
+  }
   .custom-carousel .container {
     width: 100%;
     height: auto;
@@ -148,12 +152,12 @@
     box-shadow: none;
   }
 
-  .custom-carousel .button button{
+  .custom-carousel .button button {
     z-index: 20;
     position: relative;
     margin-top: 10px; /* Espacio adicional sobre los botones */
-
   }
+
   .custom-carousel .slide .item {
     width: 90%;
     height: 200px;
@@ -180,6 +184,7 @@
     left: 50%;
     transform: translate(-50%, 0);
     opacity: 1;
+    display: none;
   }
 
   .custom-carousel .item .content {
@@ -239,20 +244,21 @@
   }
 
   .custom-carousel .item .content {
-    top: 70%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%;
+    width: 350px;
+    height: auto;
   }
 
   .custom-carousel .content .name {
-    position: absolute;
+    position: static;
     font-size: 18px;
     z-index: 10000;
   }
 
   .custom-carousel .content .des {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .custom-carousel .content button {
@@ -264,5 +270,13 @@
     width: 40px;
     height: 40px;
     margin: 0 50px;
+    bottom: 44px;
   }
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
 }

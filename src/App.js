@@ -27,6 +27,7 @@ function App() {
         <main className="main-content">
           <Main />
         </main>
+        <Card/>
         <Footer />
       </div>
     </Router>
@@ -39,7 +40,7 @@ function Main() {
   return (
     <>
       {location.pathname === '/' && (
-            <FacilubCarrusel />
+        <FacilubCarrusel />
 
       )}
 
