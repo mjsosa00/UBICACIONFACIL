@@ -1,0 +1,74 @@
+@media (max-width: 760px ) {
+
+    #componentecard {
+        max-width: 100%;
+        margin: 0 auto; 
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+        transition: transform 0.3s ease, box-shadow 0.3s ease; 
+        border: none;   
+        
+    }
+
+    .CardComponent-imagenes{
+
+        
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        align-items: center;
+        
+        }
+    
+
+
+    #card-titulo{
+        color: #ffffff;
+        text-align: center;
+    }
+
+    #botonVerMas{
+        border-radius: 8px;
+        
+
+    }
+}
+
+@media (max-width: 1920px) {
+   
+    
+    #componentecard{
+        
+        top: 10%;
+        width: 500px;
+        margin: 0 auto; 
+                
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+        transition: transform 0.3s ease, box-shadow 0.3s ease; 
+               
+    }
+
+    .texto{
+        color: aqua;
+
+
+    }
+    .CardComponent-imagenes{
+
+        
+        width: 100%;
+        height: 200px;
+        background-color: rgb(15, 15, 15);
+        
+        
+    }
+
+    .g-4{
+        color: aquamarine;
+
+    }
+    
+    .component-body{
+        background-color: #213341;
+
+    }
+}

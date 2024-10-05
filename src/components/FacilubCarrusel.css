@@ -99,6 +99,7 @@
   cursor: pointer;
   opacity: 0;
   animation: animate 1s ease-in-out 0.6s 1 forwards;
+  border-radius: 8px;
 }
 
 @keyframes animate {
@@ -153,7 +154,7 @@
   }
 
   .custom-carousel .button button {
-    z-index: 20;
+    z-index: 5;
     position: relative;
     margin-top: 10px; /* Espacio adicional sobre los botones */
   }

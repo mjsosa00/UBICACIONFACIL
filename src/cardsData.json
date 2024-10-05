@@ -1,0 +1,30 @@
+ [
+    {
+      "normal": "https://selecciones.com.ar/wp-content/uploads/2023/02/12-consejos-para-saber-que-pedir-en-un-restaurante-2636-mainImage-0.jpg",
+      "hover": "https://th.bing.com/th/id/OIP.Va2ypIC8xbl7pm2Mkihr4gHaEK?rs=1&pid=ImgDetMain",
+      "titulo": "Restaurantes",
+      "descripcion":"Los mejores restaurantes de el municipio de el trapiche.",
+      "id":1
+    },
+    {
+      "normal": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ0MKBhyphenhyphenaSrLpS44dMmsokzlG_ildz3wN-PShSXWSaOQi0q3Xxi0mlpUel4GKgKwg7m-Rlit1ndTOp3BT5TQcPDL7H6SuFok6B8l5e4Benb2dxBTP8ja7kBIUPZ6cyw2RbONOXnH1x6GAK/s400/paisajes+naturales+fotos+nuevas+(2).jpg",
+      "hover": "https://example.com/image-hover2.jpg", 
+      "titulo": "Lugares Turisticos",
+      "descripcion":"Los mejores restaurantes de el municipio de el trapiche.",
+      "id":2
+    },
+    {
+      "normal": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5sU13wqiT_FxT9wmNP77KL2g2N4hKhzr1yavfwSAfJicL1_32TA1By1WDtavRzITAn9P5YG_cu6M0jZON7diedPRlnhyphenhyphenGMc38Thv8HI4ntMI8vsS7KEVPPBr-VJLLsDWCrJY3fjjTBdXX/s400/paisajes+naturales+fotos+nuevas+(5).jpg",
+      "hover": "https://www.spain.info/export/sites/segtur/.content/imagenes/cabecera-completa/selva-irati-otono-navarra-s1698710608.jpg", 
+      "titulo": "Locales",
+      "descripcion":"Los mejores restaurantes de el municipio de el trapiche.",
+      "id":3
+    },
+    {
+      "normal": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQkAfd5ED3ryh6So2cdo0nXvr37g47tXnpdd9QGfEJvFIgvNkZ_ekWjxCgqweqDu3LZIRoPUvzGhWWVtiGVkNR7RBbsMWx6-0HMk4DUDTKt_82kyseNbYgJpH5BJ4XXKifiFRdRIw6RTMF/s400/paisajes+naturales+fotos+nuevas+(6).jpg",
+      "hover": "https://th.bing.com/th/id/OIP.2evhrBZfCk1U-Z-ZTKIi6QAAAA?rs=1&pid=ImgDetMain", 
+      "titulo": "Estadia",
+      "descripcion":"Los mejores restaurantes de el municipio de el trapiche.",
+      "id":4
+    }
+  ]

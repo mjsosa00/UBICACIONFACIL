@@ -1,53 +1,54 @@
 [
-    {
-      "titulo": "El Trapiche",
-      "texto": "El Trapiche es una de las principales localidades turísticas de la provincia de San Luis.",
-      "imagen": "https://www.villademerlo.com.ar/wp-content/uploads/2014/08/El-Trapiche-San-Luis.jpg",
-      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
-    },
-    {
-      "titulo": "Riocito",
-      "texto": "Se encuentra al pie de las Sierras de San Luis.",
-      "imagen": "https://scontent.fluq2-1.fna.fbcdn.net/v/t1.6435-9/117206457_2656550431253970_6440093287376556946_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=13d280&_nc_ohc=zkYTeKH2bKwQ7kNvgFsiiwJ&_nc_ht=scontent.fluq2-1.fna&_nc_gid=AdcYpYeQqdW1F7sK2P09roO&oh=00_AYDnMtcDyWVIsOq8ykb1EGbchH9krZoqsie3SC782UTmYQ&oe=671CBD0F",
-      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
-    },
-    {
-      "titulo": "Rio Grande",
-      "texto": "Río Grande es una localidad del departamento Coronel Pringles en la provincia de San Luis.",
-      "imagen": "https://s.ruta0.net/cache/img680/24345.jpg",
-      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
-    },
-    {
-      "titulo": "La Florida",
-      "texto": "La Florida, San Luis, es un paraíso natural, donde montañas y ríos crean un paisaje celestial.",
-      "imagen": "https://visitarsanluis.com/storage/app/uploads/public/60d/355/bad/thumb_4313_576_415_0_0_crop.webp",
-      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
-    },
-    {
-      "titulo": "La Carolina",
-      "texto": "La Carolina es un refugio sereno, donde la belleza natural y la historia se entrelazan en armonía.",
-      "imagen": "https://agenciasanluis.com/wp-content/uploads/2023/10/DISTINCION-A-LA-CAROLINA-2.jpeg",
-      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
-    },
-    {
-      "titulo": "Manitas",
-      "texto": "Este es un texto descriptivo sobre la referencia.",
-      "imagen": "https://media.istockphoto.com/id/636379014/es/foto/manos-la-formaci%C3%B3n-de-una-forma-de-coraz%C3%B3n-con-silueta-al-atardecer.jpg?s=612x612&w=0&k=20&c=R2BE-RgICBnTUjmxB8K9U0wTkNoCKZRi-Jjge8o_OgE=",
-      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
-    }
+  {
+    "titulo": "El Trapiche",
+    "texto": "El Trapiche es una de las principales localidades turísticas de la provincia de San Luis.",
+    "imagen": "https://www.villademerlo.com.ar/wp-content/uploads/2014/08/El-Trapiche-San-Luis.jpg",
+    "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
+  },
+  {
+    "titulo": "Riocito",
+    "texto": "Se encuentra al pie de las Sierras de San Luis.",
+    "imagen": "https://scontent.fluq2-1.fna.fbcdn.net/v/t1.6435-9/117206457_2656550431253970_6440093287376556946_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=13d280&_nc_ohc=zkYTeKH2bKwQ7kNvgFsiiwJ&_nc_ht=scontent.fluq2-1.fna&_nc_gid=AdcYpYeQqdW1F7sK2P09roO&oh=00_AYDnMtcDyWVIsOq8ykb1EGbchH9krZoqsie3SC782UTmYQ&oe=671CBD0F",
+    "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
+  },
+  {
+    "titulo": "Rio Grande",
+    "texto": "Río Grande es una localidad del departamento Coronel Pringles en la provincia de San Luis.",
+    "imagen": "https://s.ruta0.net/cache/img680/24345.jpg",
+    "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
+  },
+  {
+    "titulo": "La Florida",
+    "texto": "La Florida, San Luis, es un paraíso natural, donde montañas y ríos crean un paisaje celestial.",
+    "imagen": "https://visitarsanluis.com/storage/app/uploads/public/60d/355/bad/thumb_4313_576_415_0_0_crop.webp",
+    "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
+  },
+  {
+    "titulo": "La Carolina",
+    "texto": "La Carolina es un refugio sereno, donde la belleza natural y la historia se entrelazan en armonía.",
+    "imagen": "https://agenciasanluis.com/wp-content/uploads/2023/10/DISTINCION-A-LA-CAROLINA-2.jpeg",
+    "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
+  },
+  {
+    "titulo": "Manitas",
+    "texto": "Este es un texto descriptivo sobre la referencia.",
+    "imagen": "https://media.istockphoto.com/id/636379014/es/foto/manos-la-formaci%C3%B3n-de-una-forma-de-coraz%C3%B3n-con-silueta-al-atardecer.jpg?s=612x612&w=0&k=20&c=R2BE-RgICBnTUjmxB8K9U0wTkNoCKZRi-Jjge8o_OgE=",
+    "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
+  }
 
-    ,
-    {
-      "titulo": "Boquita",
-      "texto": "Este es un texto descriptivo sobre la referencia.",
-      "imagen": "https://pbs.twimg.com/profile_images/1778429846068072448/k0oxslkM_400x400.jpg",
-      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
-    }
-    ,
-    {
-      "titulo": "San Luis",
-      "texto": "Este es un texto descriptivo sobre la referencia.",
-      "imagen": "https://i.blogs.es/0ca9a6/aa/1366_2000.jpeg",
-      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
-    }
-  ]
+  ,
+  {
+    "titulo": "Boquita",
+    "texto": "Este es un texto descriptivo sobre la referencia.",
+    "imagen": "https://pbs.twimg.com/profile_images/1778429846068072448/k0oxslkM_400x400.jpg",
+    "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
+  }
+  ,
+  {
+    "titulo": "San Luis",
+    "texto": "Este es un texto descriptivo sobre la referencia.",
+    "imagen": "https://i.blogs.es/0ca9a6/aa/1366_2000.jpeg",
+    "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6"
+  }
+]
+  
