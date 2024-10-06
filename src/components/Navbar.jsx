@@ -30,6 +30,8 @@ function Navbar() {
     </Link>
       <div className={`links ${clicked ? 'active' : ''}`}>
         <Link to="/" onClick={handleLinkClick}>Inicio</Link>
+        <Link to="/Gastronomia" onClick={handleLinkClick}>Gastronomia</Link>
+        <Link to="/Eventos" onClick={handleLinkClick}>Eventos</Link>
         <Link to="/SobreNosotros" onClick={handleLinkClick}>Sobre Nosotros</Link>
         <Link to="/Contacto" onClick={handleLinkClick}>Contacto</Link>
       </div>

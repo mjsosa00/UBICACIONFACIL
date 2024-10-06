@@ -10,57 +10,41 @@
     }
 
     .CardComponent-imagenes{
-
-        
         width: 100%;
         height: 100px;
         object-fit: cover;
         align-items: center;
-        
-        }
+     }
     
 
 
     #card-titulo{
-        color: #ffffff;
+        /* color: #ffffff; */
         text-align: center;
     }
 
-    #botonVerMas{
-        border-radius: 8px;
-        
 
-    }
 }
 
 @media (max-width: 1920px) {
    
     
     #componentecard{
-        
         top: 10%;
         width: 500px;
         margin: 0 auto; 
-                
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
         transition: transform 0.3s ease, box-shadow 0.3s ease; 
-               
     }
 
     .texto{
         color: aqua;
-
-
-    }
+        }
     .CardComponent-imagenes{
-
-        
-        width: 100%;
+         width: 100%;
         height: 200px;
-        background-color: rgb(15, 15, 15);
-        
-        
-    }
+        /* background-color: rgb(15, 15, 15); */
+  }
 
     .g-4{
         color: aquamarine;
@@ -68,7 +52,28 @@
     }
     
     .component-body{
-        background-color: #213341;
+        /* background-color: #213341; */
 
     }
+
+    .CardComponent-texto{
+        color:black;
+    }
+
 }
+
+#botonVerMas { 
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: black; /* Fondo negro */
+    color: white; /* Letras blancas */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave para el fondo */
+}
+
+#botonVerMas:hover {
+    background-color: #333; /* Color de fondo al pasar el mouse */
+}
+
