@@ -1,0 +1,74 @@
+[
+    {
+      "titulo": "POBRE LUIS - Parilla",
+      "texto": "Ubicado en Ruta Provincial 39 de la ciudad de Trapiche, en la provincia de San Luis, se encuentra Nativo Rifugio nel Lago, un encantador restaurante que ofrece una experiencia culinaria única en un entorno natural.",
+      "imagen": "https://parrillaelpobreluis.com.ar/wp-content/uploads/restaurante-el-rincon-de-los-cumpas-trapiche-san-luis-400x240.jpg",
+      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
+      "Pagina":"https://parrillaelpobreluis.com.ar/",
+      "Telefono":"Celular +54 9 2657 626285",
+      "id":1
+    },
+    {
+      "titulo": "Comedor Rosales",
+      "texto": "Se encuentra al pie de las Sierras de San Luis.",
+      "imagen": "https://scontent.fluq2-1.fna.fbcdn.net/v/t1.6435-9/117206457_2656550431253970_6440093287376556946_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=13d280&_nc_ohc=zkYTeKH2bKwQ7kNvgFsiiwJ&_nc_ht=scontent.fluq2-1.fna&_nc_gid=AdcYpYeQqdW1F7sK2P09roO&oh=00_AYDnMtcDyWVIsOq8ykb1EGbchH9krZoqsie3SC782UTmYQ&oe=671CBD0F",
+      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
+	"Pagina":"https://parrillaelpobreluis.com.ar/",
+      "Telefono":"Celular +54 9 2657 626285",
+      "id":2
+    },
+    {
+      "titulo": "Comedor Los Cumpas",
+      "texto": "Río Grande es una localidad del departamento Coronel Pringles en la provincia de San Luis.",
+      "imagen": "https://parrillaelpobreluis.com.ar/wp-content/uploads/restaurante-el-rincon-de-los-cumpas-trapiche-san-luis-400x240.jpg",
+      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
+	"Pagina":"https://parrillaelpobreluis.com.ar/",
+      "Telefono":"Celular +54 9 2657 626285",
+      "id":3
+    },
+    {
+      "titulo": "Bettel Restó",
+      "texto": "La Florida, San Luis, es un paraíso natural, donde montañas y ríos crean un paisaje celestial.",
+      "imagen": "https://visitarsanluis.com/storage/app/uploads/public/60d/355/bad/thumb_4313_576_415_0_0_crop.webp",
+      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
+      "Pagina":"https://parrillaelpobreluis.com.ar/",
+      "Telefono":"Celular +54 9 2657 626285",
+      "id":4
+    },
+    {
+      "titulo": "La Casa de Omar II",
+      "texto": "La Carolina es un refugio sereno, donde la belleza natural y la historia se entrelazan en armonía.",
+      "imagen": "https://agenciasanluis.com/wp-content/uploads/2023/10/DISTINCION-A-LA-CAROLINA-2.jpeg",
+      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
+      "Pagina":"https://parrillaelpobreluis.com.ar/",
+      "Telefono":"Celular  +54 9 2652 754433",
+      "id":5
+    },
+    {
+      "titulo": "Los Pájaros",
+      "texto": "Este es un texto descriptivo sobre la referencia.",
+      "imagen": "https://parrillaelpobreluis.com.ar/wp-content/uploads//restaurante-carlos-arias-cocinero-san-miguel-de-tucuman-tucuman-400x267.jpg",
+      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
+      "Pagina":"https://parrillaelpobreluis.com.ar/",
+      "Telefono":"Celular +54 9 266 4690548 Teléfono +54 266-44931595",
+      "id":6
+    },
+    {
+      "titulo": "Reto SUAYAI",
+      "texto": ": Acepta reservas, Acogedor, Alcohol, Almuerzo, Aseo, Asientos, Asientos accesibles en silla de ruedas, Asientos al aire libre, Bar in situ, Brunch, Bueno para los niños, Café, Casual, Cena, Cene en, Cerveza, comida halal, Comida para llevar, Grupos, Menú infantil, Para toda la familia, Platos pequeños, Postre, Sillas altas, Sólo en efectivo, Tarjetas de crédito, Tarjetas de Débito, Vino, Wi-Fi",
+      "imagen": "https://parrillaelpobreluis.com.ar/wp-content/uploads/suyay-restaurante-trapiche-san-luis-400x240.jpg",
+      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
+      "Pagina":"https://parrillaelpobreluis.com.ar/",
+      "Telefono":"Celular +54 9 2657 626285",
+      "id":7
+    },
+    {
+      "titulo": "Parilla San Luis",
+      "texto": "La parrilla de nico ha sido calificado con 9.4/10 por 3 clientes",
+      "imagen": "https://parrillaelpobreluis.com.ar/wp-content/uploads/tienda-de-parrillas-la-parrilla-de-nico-pilar-centro-buenos-aires-400x267.jpg",
+      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
+      "Pagina":"https://parrillaelpobreluis.com.ar/",
+      "Telefono":"Celular +54 9 2657 626285",
+      "id":8
+    }
+  ]

@@ -1,0 +1,20 @@
+[
+    {
+      "titulo": "El Trapiche recibirá el 7° encuentro de intercambio de semillas y saberes",
+      "texto": "Será este sábado y habrá talleres, música en vivo y baile.",
+      "imagen": "https://elchorrillero.com/nota/wp-content/uploads/2024/09/Proyecto-nuevo-19-2-930x620.jpg",
+      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
+      "Pagina":"https://parrillaelpobreluis.com.ar/",
+      "Telefono":"Celular +54 9 2657 626285",
+      "id":1
+    },
+    {
+      "titulo": "El Festival de los Ríos promete música y danza en su 38ª edición",
+      "texto": "La grilla incluye referentes del folclore local y provincial, además de un cierre que tendrá a Los Playeros como figura central. Las actividades inician el sábado a las 13.",
+      "imagen": "https://pxb.cdn.eldiariodelarepublica.com/republica/012024/1705493994092/6-%20manyines%20[800x600].webp?cw=800&ch=533&extw=jpg",
+      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
+	  "Pagina":"https://parrillaelpobreluis.com.ar/",
+      "Telefono":"Celular +54 9 2657 626285",
+      "id":2
+    }
+  ]

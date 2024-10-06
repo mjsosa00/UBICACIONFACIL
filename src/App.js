@@ -27,7 +27,6 @@ function App() {
         <main className="main-content">
           <Main />
         </main>
-        <Card/>
         <Footer />
       </div>
     </Router>
@@ -46,6 +45,8 @@ function Main() {
 
       <Routes>
         <Route path="/" element={<Inicio />} />
+        <Route path="/Gastronomia" element={<Card />} />
+        <Route path="/Eventos" element={<Card />} />
         <Route path="/sobrenosotros" element={<SobreNosotros />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/TerminosYServicios" element={<TerminosYServicios />} />
