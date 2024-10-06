@@ -41,7 +41,7 @@ function GridExample() {
 
   return (
     <div 
-    className='Container-divino'
+    className='contenedor'
       style={{ 
         textAlign: 'center', 
         //   backgroundImage: `url(${backgroundImage})`, 

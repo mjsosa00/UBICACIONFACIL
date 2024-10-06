@@ -16,6 +16,7 @@ import Card from './components/Card';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Pagina from './components/Pagina';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function Main() {
       )}
 
       <Routes>
+        <Route path="/Pagina" element={<Pagina />} />
         <Route path="/" element={<Inicio />} />
         <Route path="/Gastronomia" element={<Card />} />
         <Route path="/Eventos" element={<Card />} />

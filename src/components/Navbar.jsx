@@ -4,6 +4,7 @@ import BurguerButton from './BurguerButton';
 import { Link } from 'react-router-dom';
 import './Navbar.css'; // Importa el CSS
 
+
 function Navbar() {
   const [clicked, setClicked] = useState(false);
 
@@ -34,6 +35,7 @@ function Navbar() {
         <Link to="/Eventos" onClick={handleLinkClick}>Eventos</Link>
         <Link to="/SobreNosotros" onClick={handleLinkClick}>Sobre Nosotros</Link>
         <Link to="/Contacto" onClick={handleLinkClick}>Contacto</Link>
+        
       </div>
       <div className='burguer'>
         {/* Usa handleToggleClick aquí para abrir y cerrar el menú */}

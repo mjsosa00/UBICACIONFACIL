@@ -151,6 +151,7 @@
     transform: none; /* Elimina el translate */
     margin: 0 auto; /* Centra el carrusel de forma automática */
     box-shadow: none;
+    background-color: #fff;
   }
 
   .custom-carousel .button button {
@@ -167,6 +168,7 @@
     top: 0;
     border-radius: 15px;
     margin-bottom: 20px;
+    background-color: white;
   }
 
   .custom-carousel .slide .item:nth-child(1),
@@ -177,6 +179,7 @@
     border-radius: 0;
     width: 100%;
     height: 200px;
+    
   }
 
   .custom-carousel .slide .item:nth-child(3),
@@ -224,6 +227,7 @@
   .custom-carousel .slide .item:nth-child(n + 6) {
     left: 0;
     opacity: 0;
+    background-color: white;
   }
 }
 
