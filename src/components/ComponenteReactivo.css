@@ -1,0 +1,61 @@
+#titulo-articulo{
+    margin: 0 auto;
+    text-align: center;
+    background-color: steelblue;
+    border-radius: 10px;
+    max-width: 700px;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#parrafo-articulo1{
+    text-align: center;
+    color: black;
+
+}
+#parrafo-articulo2{
+    text-align: center;
+    color: black;
+
+}
+
+#contenedor-images{
+    max-width: 1000px;
+    max-height: 1000px;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(54, 148, 255);
+
+}
+
+#contenedor-parrafo1{
+    margin: 0 auto;
+    max-width: 700px;
+
+
+
+}
+
+#contenedor-parrafo2{
+    margin: 0 auto;
+    max-width: 700px;
+
+
+
+}
+
+#mapa{
+    align-items: center;
+
+    margin: 0 auto;
+    height: 300px;
+    width: 100%;
+    
+
+}
+
+#telefono{
+    color: black;
+
+
+}

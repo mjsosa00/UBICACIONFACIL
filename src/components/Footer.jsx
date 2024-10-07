@@ -10,25 +10,18 @@ export default function Footer() {
         <span style={{ color: 'white', fontSize: '20px' }}>Siguenos en nuestras redes sociales:</span>
         </div>
 
-        <div>
+        <div id='div-redes'>
           <a href='' className='me-4 text-reset'>
             <MDBIcon color='white' fab icon='facebook-f' />
           </a>
           <a href='' className='me-4 text-reset'>
             <MDBIcon color='white' fab icon='twitter' />
           </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon color='white' fab icon='google' />
-          </a>
+          
           <a href='' className='me-4 text-reset'>
             <MDBIcon color='white' fab icon='instagram' />
           </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon color='white' fab icon='linkedin' />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon color='white' fab icon='github' />
-          </a>
+          
         </div>
       </section>
 
@@ -40,59 +33,59 @@ export default function Footer() {
       <img 
         src="https://cdn.discordapp.com/attachments/1179643622153527347/1290007581208871018/UBIFACIL_blanco.png?ex=66fae4ae&is=66f9932e&hm=c81b8785c16a793154b4cca2684b8071af37c182081ad5cc2109e9a193edc544&" 
         alt="Logo" 
-        style={{ width: '80px', height: 'auto', marginRight: '8px', marginTop:'28px' }} 
+        className='imagen-footer'
       />
     </h6>
-    <p>Pagina turistica.</p>
+    <p id='texto-paginaturistica'>Pagina turistica.</p>
   </MDBCol>
 
   <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4 text-center'>
     <h6 className='text-uppercase fw-bold mb-4' style={{ color: '#6C757D'}}>Products</h6>
     <p>
-      <a href='#!' className='text-reset' style={{ textDecoration: 'none', color: 'white' }}>Angular</a>
+      <a href='#!' className='text-reset-footer'>Angular</a>
     </p>
     <p>
-      <a href='#!' className='text-reset' style={{ textDecoration: 'none', color: 'white' }}>React</a>
+      <a href='#!' className='text-reset-footer' >React</a>
     </p>
     <p>
-      <a href='#!' className='text-reset' style={{ textDecoration: 'none', color: 'white' }}>Vue</a>
+      <a href='#!' className='text-reset-footer' >Vue</a>
     </p>
     <p>
-      <a href='#!' className='text-reset' style={{ textDecoration: 'none', color: 'white' }}>Laravel</a>
+      <a href='#!' className='text-reset-footer' >Laravel</a>
     </p>
   </MDBCol>
 
   <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4 text-center'>
     <h6 className='text-uppercase fw-bold mb-4' style={{ color: '#6C757D'}}>Useful links</h6>
     <p>
-      <Link to="/Contacto" className='text-reset' style={{ textDecoration: 'none', color: 'white' }}>Contacto</Link>
+      <Link to="/Contacto" className='text-reset-footer'>Contacto</Link>
     </p>
     <p>
-      <a href='#!' className='text-reset' style={{ textDecoration: 'none', color: 'white' }}>Settings</a>
+      <a href='#!' className='text-reset-footer' >Settings</a>
     </p>
     <p>
-      <a href='#!' className='text-reset' style={{ textDecoration: 'none', color: 'white' }}>Orders</a>
+      <a href='#!' className='text-reset-footer' >Orders</a>
     </p>
     <p>
-      <a href='#!' className='text-reset' style={{ textDecoration: 'none', color: 'white' }}>Help</a>
+      <a href='#!' className='text-reset-footer' >Help</a>
     </p>
   </MDBCol>
 
   <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4 text-center'>
     <h6 className='text-uppercase fw-bold mb-4'style={{ color: '#6C757D'}}>Contacto</h6>
-    <p>
-      <MDBIcon color='secondary' icon='home' className='me-2' />
+    <p className='text-reset-footer'>
+      <MDBIcon color='light' icon='home' className='me-2' />
       San Luis, JK 10012, AR
     </p>
-    <p>
-      <MDBIcon color='secondary' icon='envelope' className='me-3' />
+    <p className='text-reset-footer'>
+      <MDBIcon color='light' icon='envelope' className='me-3' />
       UbicarFacil@example.com
     </p>
-    <p>
-      <MDBIcon color='secondary' icon='phone' className='me-3' /> + 01 234 567 88
+    <p className='text-reset-footer'>
+      <MDBIcon color='light' icon='phone' className='me-3' /> + 01 234 567 88
     </p>
-    <p>
-      <MDBIcon color='secondary' icon='print' className='me-3' /> + 01 234 567 89
+    <p className='text-reset-footer'>
+      <MDBIcon color='light' icon='print' className='me-3' /> + 01 234 567 89
     </p>
   </MDBCol>
 </MDBRow>
