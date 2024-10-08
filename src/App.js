@@ -16,7 +16,8 @@ import Card from './components/Card';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import ComponentReactivo from './components/ComponentReactivo';
+import { CgPacman } from 'react-icons/cg';
 function App() {
   return (
     <Router>
@@ -51,7 +52,8 @@ function Main() {
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/TerminosYServicios" element={<TerminosYServicios />} />
         <Route path="/PoliticaDePrivacidad" element={<PoliticaDePrivacidad />} />
-      </Routes>
+        <Route path="/ComponenteReactivo" element={<ComponentReactivo />} />
+      </Routes> 
     </>
   );
 }

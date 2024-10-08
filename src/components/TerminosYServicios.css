@@ -1,6 +1,6 @@
 
 
-h2 {
+.titulosTyS {
     color: white;
     padding-top: 10px;
     padding-bottom: 3px;
@@ -8,14 +8,14 @@ h2 {
 
 }
 
-div .container{
+.divTyS{
     padding-top: 20px;
     text-align: center;
     background-color: rgba(127, 255, 212, 0.2);
 
 }
 
-p{
+.parrafoTyS{
     color: white;
     text-align: center;
 

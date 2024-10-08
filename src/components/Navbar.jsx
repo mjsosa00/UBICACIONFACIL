@@ -57,7 +57,7 @@ const NavContainer = styled.nav`
     }
   }
   padding: .4rem;
- background-image: linear-gradient(#213341 20%, #049CB3);
+  background-image: linear-gradient(#d9c97b 50%, #c66529);
   display: flex;
   align-items: center;
   justify-content: space-between;

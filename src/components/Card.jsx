@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import CardComponent from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -9,11 +9,15 @@ import getData from '../services/dataService'
 function GridExample() {
 //  const [backgroundImage, setBackgroundImage] = useState('');
   const location = useLocation();
+  const navigate = useNavigate(); // Hook para navegar entre ruta
   const currentPath = location.pathname;
 
   const [isGastronomia, setIsGastronomia] = useState(currentPath === '/Gastronomia');
   const [isEventos, setIsEventos] = useState(currentPath === '/Eventos');
   const [items, setItems] = useState([]);
+
+  
+
 
   // Este useEffect se ejecutará cuando cambie la ubicación
   useEffect(() => {
@@ -32,12 +36,19 @@ function GridExample() {
         "Pagina": item.Pagina,
         "Telefono": item.Telefono,
         "id":item.id
+
+        
       }));
       setItems(formattedData);
     };
 
     loadItems();
   }, [isGastronomia, isEventos]);
+//agregado
+  const handleVerMas = (card) => {
+    // Navega a otro componente y pasa la información del card como estado
+    navigate('/ComponenteReactivo', { state: { card } });
+  };
 
   return (
     <div 
@@ -61,7 +72,11 @@ function GridExample() {
               <CardComponent.Body className='component-body'>
                 <CardComponent.Title id='card-titulo' >{card.titulo} </CardComponent.Title>
                 <CardComponent.Text className='CardComponent-texto'>{card.texto}</CardComponent.Text>
-                <button id='botonVerMas'>ver más</button>
+                
+                <button id="botonVerMas" onClick={() => handleVerMas(card)}>
+                  Ver más
+                </button>
+
               </CardComponent.Body>
               
             </CardComponent>
