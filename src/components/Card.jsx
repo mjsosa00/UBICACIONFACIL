@@ -35,9 +35,11 @@ function GridExample() {
         "titulo": item.titulo,
         "texto": item.texto,
         "imagen": item.imagen,
+        "href": item.href,
         "Pagina": item.Pagina,
         "Telefono": item.Telefono,
-        "id":item.id
+        "id":item.id,
+        "horario": item.horario
 
         
       }));

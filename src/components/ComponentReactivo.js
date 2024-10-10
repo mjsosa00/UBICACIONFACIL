@@ -49,7 +49,18 @@ const ComponentReactivo=() =>{
             <br></br>
             <h1 id='titulo-articulo'>{card.titulo} </h1>
              <br></br>
-             <h2 id='telefono'>{card.Telefono}</h2>
+
+           <div id='contenedor-items'>
+             <div id='div-telefono'>
+                <h2 id='texto-telefono'>Telefono</h2>
+                <h2 id='telefono'>{card.Telefono}</h2>
+             </div>
+
+             <div id='div-horario'>
+                <h2 id='texto-horario'>Horarios</h2>
+                <h2 id='Horario'>{card.horario}</h2>
+             </div>
+             </div>
              <br></br>
             <div id='contenedor-parrafo1'>
                 <p id='parrafo-articulo1' >{card.texto} </p>
@@ -64,12 +75,12 @@ const ComponentReactivo=() =>{
 
 
               </div>
-
+            <div id='contenedor-como-llegar'>
             <br></br>
               <h2>Como llegar?</h2>
               <br></br>
-              <iframe id='mapa' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d417.6764523115632!2d-66.05998795115431!3d-33.12454917478796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d46d46fee74591%3A0x4f5253d53566049e!2sLo%20de%20Maria%20Jos%C3%A9!5e0!3m2!1ses!2sar!4v1728303950882!5m2!1ses!2sar"></iframe>
-
+              <iframe id='mapa' src={card.href}></iframe>
+              </div>
           <br></br>
           <br></br>
         </div>
