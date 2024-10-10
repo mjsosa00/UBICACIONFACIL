@@ -18,6 +18,8 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ComponentReactivo from './components/ComponentReactivo';
 import { CgPacman } from 'react-icons/cg';
+import ClickableComponent from './components/Clickable';
+
 function App() {
   return (
     <Router>
@@ -40,7 +42,33 @@ function Main() {
   return (
     <>
       {location.pathname === '/' && (
+         <div>
         <FacilubCarrusel />
+
+        <div style={{ padding: '20px' }}>
+        <ClickableComponent
+          title="Gastronomia"
+          subtitle="Lugares, sabores y placeres"
+          route="/Gastronomia"
+        />
+        <ClickableComponent
+          title="Eventos"
+          subtitle="Festivales, conciertos y festejos"
+          route="/Eventos"
+        />
+         <ClickableComponent
+          title="Hospedaje"
+          subtitle="Hoteles, hosterias y campings"
+          route="/Hospedaje"
+        />
+      </div>
+      <Routes>
+        <Route path="/Eventos" element={<h1>Eventos</h1>} />
+        <Route path="/Gastronomia" element={<h1>Gastronomia</h1>} />
+        <Route path="/Hospedaje" element={<h1>Hospedaje</h1>} />
+      </Routes>
+        
+    </div>
 
       )}
 
@@ -48,6 +76,7 @@ function Main() {
         <Route path="/" element={<Inicio />} />
         <Route path="/Gastronomia" element={<Card />} />
         <Route path="/Eventos" element={<Card />} />
+        <Route path="/Hospedaje" element={<Card />} />
         <Route path="/sobrenosotros" element={<SobreNosotros />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/TerminosYServicios" element={<TerminosYServicios />} />

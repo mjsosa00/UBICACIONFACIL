@@ -14,6 +14,7 @@ function GridExample() {
 
   const [isGastronomia, setIsGastronomia] = useState(currentPath === '/Gastronomia');
   const [isEventos, setIsEventos] = useState(currentPath === '/Eventos');
+  const [isHospedaje, setIsHospedaje] = useState(currentPath === '/Hospedaje');
   const [items, setItems] = useState([]);
 
   
@@ -23,12 +24,13 @@ function GridExample() {
   useEffect(() => {
     setIsGastronomia(currentPath === '/Gastronomia');
     setIsEventos(currentPath === '/Eventos');
+    setIsHospedaje(currentPath === '/Hospedaje');
   }, [currentPath]);
 
   // Cargar los datos desde el JSON
   useEffect(() => {
     const loadItems = async () => {
-      const data = await getData(isGastronomia, isEventos);
+      const data = await getData(isGastronomia, isEventos, isHospedaje);
       const formattedData = data.map(item => ({
         "titulo": item.titulo,
         "texto": item.texto,
@@ -51,18 +53,18 @@ function GridExample() {
   };
 
   return (
-    <div 
-    className='Container-divino'
+    <div  className='Container-divino'
       style={{ 
         textAlign: 'center', 
         //   backgroundImage: `url(${backgroundImage})`, 
         backgroundSize: 'cover', 
         // minHeight: '100vh', // Ajusta la altura según lo necesario
-        transition: 'background-image 0.3s ease'
+        transition: 'background-image 0.3s ease', 
+        marginBottom: '200px'
       }}
     >
       <h1 style={{ fontSize: '2.5rem', color: '#333', fontWeight: 'bold' }}>
-      {isEventos ? 'EVENTOS' : 'GASTRONOMÍA'}
+      {isEventos ? 'EVENTOS' : isGastronomia ? 'GASTRONOMÍA': 'HOSPEDAJES' }
       </h1>
       <Row xs={1} md={2} className="g-4">
         {items.map((card) => (
