@@ -1,4 +1,4 @@
-const getData = async (isGastronomia, isEventos) => {
+const getData = async (isGastronomia, isEventos, isHospedaje) => {
     try {
 
       if(isGastronomia)
@@ -20,6 +20,18 @@ const getData = async (isGastronomia, isEventos) => {
           const data = await responseEventos.json(); 
           return data; 
         }
+
+        if(isHospedaje)
+          {
+            const responseHospedaje = await fetch('../hospedaje.json'); 
+            if (!responseHospedaje.ok) {
+                throw new Error('Error fetching hosting data');
+            }
+            const data = await responseHospedaje.json(); 
+            return data; 
+          }
+
+
     } catch (error) {
       console.error('Error:', error);
       return []; 

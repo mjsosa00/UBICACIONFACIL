@@ -1,0 +1,38 @@
+[
+    {
+      "titulo": "COSTA Parador",
+      "texto": "Ruta Nº 9 Km 25 - La Floridad Horario de 10 a 22 hrs",
+      "imagen": "https://lh5.googleusercontent.com/p/AF1QipOEZZ81TBr2nV-HM8sDSEixv9epFDCoY1YqzZjy=w408-h544-k-no",
+      "href": "https://maps.app.goo.gl/u7Q19QF4mvBwgeak6",
+      "Pagina":"https://parrillaelpobreluis.com.ar/",
+      "Telefono":"Celular +54 9 2657 626285",
+      "id":1
+    },
+    {
+      "titulo": "Camping La Resbalosa",
+      "texto": "Ruta Nº 9 Km 37 - El Trapiche Horario Todos los dias de 9 a 00",
+      "imagen": "https://lh5.googleusercontent.com/p/AF1QipNofTI-GMWdqbfROSnMmTyVR8gloCT-HRZ2oqdH=w408-h306-k-no",
+      "href": "https://maps.app.goo.gl/TWzmYdFhouDGaDCS7",
+	  "Pagina":"https://parrillaelpobreluis.com.ar/",
+      "Telefono":"Celular +54 9 2657 626285",
+      "id":2
+    },
+    {
+      "titulo": "Camping Schmid",
+      "texto": "Ruta Nº 9 Km 37 - El Trapiche Horario Todos los dias de 8 a 00",
+      "imagen": "https://lh5.googleusercontent.com/p/AF1QipNl0rmp88T-e7B3wCmmyPBtJogaYQfwJoAe61AV=w408-h306-k-no",
+      "href": "https://maps.app.goo.gl/GLYuxrj9MWni6Lik8",
+	"Pagina":"https://parrillaelpobreluis.com.ar/",
+      "Telefono":"Celular +54 9 2657 626285",
+      "id":3
+    },
+    {
+      "titulo": "Complejo Turístico Camping El Refugio",
+      "texto": "Calle San Martin Esquina Cnel Valette, El Trapiche",
+      "imagen":"https://lh3.googleusercontent.com/gps-proxy/ALd4DhGfNH6GkRb5wO7xgLfIk0yUJX_Z3aCIf98AQg-Kz0Sqmjjqae0IW8o9fBp0HnW3ewrHYtsn51XZWLRvyFaPQwARgPir4aWzRRAbXBYnBO78FLBeTee8a0uQYqYquscGLJiLcdC3lBiCzMT3Nmt9z0SnJjSRMs22bxYOysYJHcR_sI8RpM3q20TpJQ=w427-h240-k-no",
+      "href": "https://maps.app.goo.gl/v1b4nCJzFX3GbEAN9",
+      "Pagina":"https://parrillaelpobreluis.com.ar/",
+      "Telefono":"Celular +54 9 2657 626285",
+      "id":4
+    }
+  ]

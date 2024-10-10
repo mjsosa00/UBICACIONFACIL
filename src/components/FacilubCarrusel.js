@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './FacilubCarrusel.css'; // Importa el CSS externo
 import fetchData from '../services/referencias'; // Asegúrate de que la ruta sea correcta
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import ClickableComponent from './Clickable';
 
 const FacilubCarrusel = () => {
   const [items, setItems] = useState([]);
@@ -54,6 +56,7 @@ const FacilubCarrusel = () => {
           </div>
         ))}
       </div>
+     
       <div className="button">
         <button className="prev" onClick={prevItem}>
           <i className="fa-solid fa-arrow-left"></i>
@@ -62,6 +65,13 @@ const FacilubCarrusel = () => {
           <i className="fa-solid fa-arrow-right"></i>
         </button>
       </div>
+      
+        
+          <Routes>
+                <Route path="/Eventos" element={<h1>Eventos</h1>} />
+                <Route path="/Gastronomia" element={<h1>Gastronomia</h1>} />
+          </Routes>
+      
     </div>
   );
 };
