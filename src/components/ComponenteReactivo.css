@@ -3,6 +3,7 @@
     text-align: center;
     background-color: steelblue;
     border-radius: 10px;
+    height: 50px;
     max-width: 700px;
     font-weight: bold;
     font-size: 2.5rem;
@@ -20,11 +21,13 @@
 }
 
 #contenedor-images{
+    
     max-width: 1000px;
     max-height: 1000px;
     align-items: center;
     margin: 0 auto;
-    background-color: rgb(54, 148, 255);
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
 
 }
 
@@ -55,7 +58,66 @@
 }
 
 #telefono{
+    text-align: center;
+    margin: 0 auto;
     color: black;
+    font-size: 19px;
+
+}
+
+#div-telefono{
+    display: inline-block;
+    height: 60px;
+    width: 200px;
+    margin-left: 10px;
+    background-color: rgb(156, 156, 156);
+    border: solid 1px rgb(7, 7, 7);
+    border-radius: 0 40px 0 40px;
+}
+#texto-telefono{
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+
+#div-horario{
+    height: 60px;
+    width: 200px;
+    margin-left: 5px;
+    background-color: rgb(156, 156, 156);
+    border: solid 1px rgb(7, 7, 7);
+    border-radius: 0 40px 0 40px;
+    display: inline-block;
+}
+
+#texto-horario{
+    text-align: center;
+    margin: 0 auto;
+
+
+
+}
+#Horario{
+    text-align: center;
+    
+    color: black;
+    font-size: 19px;
+
+}
+
+
+#contenedor-items{
+    text-align: center;
+    
+
+}
+
+
+#contenedor-como-llegar{
+    height: 500px;
+    background-color: rgb(89, 122, 231);
+    text-align: center;
 
 
 }

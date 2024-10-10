@@ -95,7 +95,7 @@ export default function Footer() {
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2021 Copyright:
+        © 2030 Copyright:
         <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
           UbicarFacil.com
         </a>

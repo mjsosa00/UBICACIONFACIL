@@ -3,19 +3,23 @@
       "titulo": "POBRE LUIS - Parilla",
       "texto": "Ubicado en Ruta Provincial 39 de la ciudad de Trapiche, en la provincia de San Luis, se encuentra Nativo Rifugio nel Lago, un encantador restaurante que ofrece una experiencia culinaria única en un entorno natural.",
       "imagen": "https://parrillaelpobreluis.com.ar/wp-content/uploads/restaurante-el-rincon-de-los-cumpas-trapiche-san-luis-400x240.jpg",
-      "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
+      "href": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13143.717677008875!2d-58.4522461!3d-34.5553424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb42d9d1c228d%3A0x4f93498c7b4a394d!2sParrilla%20El%20Pobre%20Luis!5e0!3m2!1ses!2sar!4v1728486164286!5m2!1ses!2sar",
       "Pagina":"https://parrillaelpobreluis.com.ar/",
-      "Telefono":"Celular +54 9 2657 626285",
-      "id":1
+      "Telefono":"+54 9 2657 626285",
+      "id":1,
+      "horario":"desde 13hs a 20hs"
+      
     },
     {
       "titulo": "Comedor Rosales",
       "texto": "Se encuentra al pie de las Sierras de San Luis.",
       "imagen": "https://scontent.fluq2-1.fna.fbcdn.net/v/t1.6435-9/117206457_2656550431253970_6440093287376556946_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=13d280&_nc_ohc=zkYTeKH2bKwQ7kNvgFsiiwJ&_nc_ht=scontent.fluq2-1.fna&_nc_gid=AdcYpYeQqdW1F7sK2P09roO&oh=00_AYDnMtcDyWVIsOq8ykb1EGbchH9krZoqsie3SC782UTmYQ&oe=671CBD0F",
       "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
-	"Pagina":"https://parrillaelpobreluis.com.ar/",
+	    "Pagina":"https://parrillaelpobreluis.com.ar/",
       "Telefono":"Celular +54 9 2657 626285",
-      "id":2
+      "id":2,
+      "horario":"desde las 13hs a 20hs"
+      
     },
     {
       "titulo": "Comedor Los Cumpas",
@@ -24,7 +28,8 @@
       "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
 	"Pagina":"https://parrillaelpobreluis.com.ar/",
       "Telefono":"Celular +54 9 2657 626285",
-      "id":3
+      "id":3,
+      "horario":"desde las 13hs a 20hs"
     },
     {
       "titulo": "Bettel Restó",
@@ -33,7 +38,8 @@
       "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
       "Pagina":"https://parrillaelpobreluis.com.ar/",
       "Telefono":"Celular +54 9 2657 626285",
-      "id":4
+      "id":4,
+      "horario":"desde las 13hs a 20hs"
     },
     {
       "titulo": "La Casa de Omar II",
@@ -42,7 +48,8 @@
       "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
       "Pagina":"https://parrillaelpobreluis.com.ar/",
       "Telefono":"Celular  +54 9 2652 754433",
-      "id":5
+      "id":5,
+      "horario":"desde las 13hs a 20hs"
     },
     {
       "titulo": "Los Pájaros",
@@ -51,7 +58,8 @@
       "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
       "Pagina":"https://parrillaelpobreluis.com.ar/",
       "Telefono":"Celular +54 9 266 4690548 Teléfono +54 266-44931595",
-      "id":6
+      "id":6,
+      "horario":"desde las 13hs a 20hs"
     },
     {
       "titulo": "Reto SUAYAI",
@@ -60,7 +68,9 @@
       "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
       "Pagina":"https://parrillaelpobreluis.com.ar/",
       "Telefono":"Celular +54 9 2657 626285",
-      "id":7
+      "id":7,
+      "horario":"desde las 13hs a 20hs"
+      
     },
     {
       "titulo": "Parilla San Luis",
@@ -69,6 +79,7 @@
       "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
       "Pagina":"https://parrillaelpobreluis.com.ar/",
       "Telefono":"Celular +54 9 2657 626285",
-      "id":8
+      "id":8,
+      "horario":"desde las 13hs a 20hs"
     }
   ]

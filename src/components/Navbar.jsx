@@ -22,7 +22,7 @@ function Navbar() {
               <Link to="/" onClick={handleLinkClick}>
       <h6 className='text-uppercase fw-bold mb- ms-3 mt-1' style={{ color: '#6C757D'}}>
       <img 
-        src="https://cdn.discordapp.com/attachments/1179643622153527347/1290007581208871018/UBIFACIL_blanco.png?ex=66fae4ae&is=66f9932e&hm=c81b8785c16a793154b4cca2684b8071af37c182081ad5cc2109e9a193edc544&" 
+        src="https://i.ibb.co/WDPTxmv/UBIFACIL-blanco-10px.png" 
         alt="Logo" 
         style={{ width: '50px', height: 'auto', marginRight: '8px', marginTop: '2px' }} 
       />
