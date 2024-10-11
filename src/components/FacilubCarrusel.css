@@ -7,8 +7,8 @@
 .custom-carousel {
   /* background: #eaeaea; */
   overflow: hidden;
-  height: 600px; /* Ajusta la altura del carrusel según sea necesario */
-  position: static; /* Para mantener el flujo del layout */
+  height: 834px; /* Ajusta la altura del carrusel según sea necesario */
+  position: relative; /* Para mantener el flujo del layout */
   margin-bottom: 0px;
 
 }
@@ -258,7 +258,7 @@
 
   .custom-carousel .slide .item:nth-child(1),
   .custom-carousel .slide .item:nth-child(2) {
-    top: 77px;
+    top: 0px;
   }
 
   .custom-carousel .item .content {

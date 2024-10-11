@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { useNavigate  } from 'react-router-dom';
-
+import { useNavigate } from 'react-router-dom';
 
 const Container = styled.div`
   height: 400px;
@@ -28,22 +27,28 @@ const Container = styled.div`
   }
 `;
 
+const ContenedorTexto = styled.div`
+  background-color: rgba(255, 255, 255, 0.7); /* Fondo translúcido */
+  padding: 20px; /* Espacio alrededor del texto */
+  border-radius: 10px; /* Bordes redondeados */
+  position: absolute; /* Posiciona el contenedor absolutamente */
+  left: 0; /* Se alinea al lado izquierdo */
+  right: 0; /* Se alinea al lado derecho */
+  bottom: 20px; /* Ajusta la posición vertical según sea necesario */
+  z-index: 10; /* Asegura que esté por encima de la imagen */
+  text-align: center; /* Alinear el texto al centro */
+`;
+
 const Title = styled.h1`
   padding: 10px 0;  /* Para dar espacio vertical sin usar transform */
   font-size: 1.5em;
   color: #007bff;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.7);  /* Fondo translúcido */
-  text-align: center;
-  z-index: 10;
-  margin-top: 20px;  /* Añadir un margen superior */
+  margin: 0; /* Elimina el margen por defecto del h1 */
 `;
 
 const Subtitle = styled.h2`
   font-size: 1em;
   color: #555;
-  z-index: 10;
-  text-align: center;
   margin-top: 10px;  /* Espacio entre el título y el subtítulo */
 `;
 
@@ -58,23 +63,22 @@ const Image = styled.img`
 `;
 
 const ClickableComponent = ({ title, subtitle, route, imagen }) => {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
-    const handleClick = () => {
-      navigate(route);
-    };
+  const handleClick = () => {
+    navigate(route);
+  };
 
   return (
-    <div style={{ marginTop: '300px' }}>
-    <Container onClick={handleClick}>
-      <Image id='imagenfondo' src={imagen} alt="Fondo" />
-      
+    <div>
+      <Container onClick={handleClick}>
+        <Image id='imagenfondo' src={imagen} alt="Fondo" />
         
-      <Title>{title}</Title>
-      <Subtitle>{subtitle}</Subtitle>
-      
-      
-    </Container>
+        <ContenedorTexto>
+          <Title>{title}</Title>
+          <Subtitle>{subtitle}</Subtitle>
+        </ContenedorTexto>
+      </Container>
     </div>
   );
 };

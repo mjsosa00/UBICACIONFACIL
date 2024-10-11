@@ -42,7 +42,7 @@ const FacilubCarrusel = () => {
   };
 
   return (
-    <div className="container custom-carousel">
+    <div className="container custom-carousel" style={{maxWidth: "1910px"}}>
       <div className="slide">
         {items.map((item, index) => (
           <div key={index} className="item" style={{ backgroundImage: `url(${item.img})` }}>
