@@ -9,6 +9,8 @@
   overflow: hidden;
   height: 600px; /* Ajusta la altura del carrusel según sea necesario */
   position: static; /* Para mantener el flujo del layout */
+  margin-bottom: 0px;
+
 }
 
 .custom-carousel .container {
@@ -17,6 +19,7 @@
   background: #f5f5f5;
   box-shadow: 0 30px 50px #dbdbdb;
   margin: 0;
+  margin-bottom: 250px;
 }
 
 .custom-carousel .slide {
@@ -142,16 +145,24 @@
 /* Media Query para dispositivos móviles */
 @media (max-width: 768px) {
 
+  .custom-carousel.custom-carousel {
+    margin-bottom: 0px !important;
+    
+  }
+
+
+
   .custom-carousel {
     height: 200px;
   }
-  .custom-carousel .container {
+  .container custom-carousel {
     width: 100%;
     height: 100%;
     position: static; /* Quita el position absolute */
     transform: none; /* Elimina el translate */
     margin: 0 auto; /* Centra el carrusel de forma automática */
     box-shadow: none;
+    margin-bottom: 0px;
   }
 
   .custom-carousel .button button {

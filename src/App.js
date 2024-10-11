@@ -49,16 +49,19 @@ function Main() {
         <ClickableComponent
           title="Gastronomia"
           subtitle="Lugares, sabores y placeres"
+          imagen="https://www.aseguratuviaje.com.ve/images/mejores-platos-gastronomia-argentina.jpg"
           route="/Gastronomia"
         />
         <ClickableComponent
           title="Eventos"
           subtitle="Festivales, conciertos y festejos"
+          imagen="https://i.ibb.co/LCfLTqD/pexels-mikky-k-158844-625644.jpg"
           route="/Eventos"
         />
          <ClickableComponent
           title="Hospedaje"
           subtitle="Hoteles, hosterias y campings"
+          imagen="https://images.adsttc.com/media/images/66f5/7167/4003/183c/2a97/5bd2/slideshow/un-hospedaje-en-el-pigue-mestizo-estudio-arquitectura_15.jpg?1727361417"
           route="/Hospedaje"
         />
       </div>
