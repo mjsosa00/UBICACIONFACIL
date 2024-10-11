@@ -14,22 +14,14 @@ import './ComponenteReactivo.css';
 
 const ComponentReactivo=() =>{
 
-  const location = useLocation();
-  const { card } = location.state;
-  const images = [
-    {
-      original:card.imagen,
-      thumbnail:card.imagen,
-    },
-    {
-      original: "https://picsum.photos/id/1015/1000/600/",
-      thumbnail: "https://picsum.photos/id/1015/1000/600/",
-    },
-    {
-      original: "https://picsum.photos/id/1019/1000/600/",
-      thumbnail: "https://picsum.photos/id/1019/1000/600/",
-    },
-  ];
+ 
+    const location = useLocation();
+    const { card } = location.state || {};
+
+    const images = card.imagenes.map((img) => ({
+        original: img,
+        thumbnail: img,
+    }));
 
     return(
 
