@@ -30,6 +30,7 @@ function App() {
         <main className="main-content">
           <Main />
         </main>
+        
         <Footer />
       </div>
     </Router>
@@ -44,8 +45,7 @@ function Main() {
       {location.pathname === '/' && (
          <div>
         <FacilubCarrusel />
-
-        <div style={{ padding: '20px' }}>
+        
         <ClickableComponent
           title="Gastronomia"
           subtitle="Lugares, sabores y placeres"
@@ -61,7 +61,6 @@ function Main() {
           subtitle="Hoteles, hosterias y campings"
           route="/Hospedaje"
         />
-      </div>
       <Routes>
         <Route path="/Eventos" element={<h1>Eventos</h1>} />
         <Route path="/Gastronomia" element={<h1>Gastronomia</h1>} />
