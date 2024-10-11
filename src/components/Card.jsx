@@ -31,7 +31,8 @@ function GridExample() {
                 "imagenes": item.imagenes || [item.imagen], // Asegúrate de que sea un array
                 "Pagina": item.Pagina,
                 "Telefono": item.Telefono,
-                "id": item.id
+                "id": item.id,
+                "href": item.href
             }));
             setItems(formattedData);
         };
