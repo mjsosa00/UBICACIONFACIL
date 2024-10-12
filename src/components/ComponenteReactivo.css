@@ -1,12 +1,22 @@
+
+#contenedor-titulo{
+
+    background-color: #003B95;
+
+
+}
+
 #titulo-articulo{
-    margin: 0 auto;
+
     text-align: center;
-    background-color: steelblue;
-    border-radius: 10px;
-    height: 50px;
-    max-width: 700px;
+    
+    height: 70px;
+    max-width: 100%;
     font-weight: bold;
     font-size: 2.5rem;
+    color: white;
+    position: relative;
+    top: 10px;
 }
 
 #parrafo-articulo1{
@@ -21,12 +31,12 @@
 }
 
 #contenedor-images{
-    
-    max-width: 1000px;
-    max-height: 1000px;
+    background: white;
+    max-width: 900px;
+    max-height: 900px;
     align-items: center;
     margin: 0 auto;
-    background-color: rgb(255, 255, 255);
+    
     margin-top: 10px;
 
 }
@@ -49,10 +59,10 @@
 
 #mapa{
     align-items: center;
-
     margin: 0 auto;
-    height: 300px;
-    width: 100%;
+    height: 200px;
+    width: 90%;
+    border-radius: 20px 20px 20px 20px;
     
 
 }
@@ -60,40 +70,41 @@
 #telefono{
     text-align: center;
     margin: 0 auto;
-    color: black;
+    color: white;
     font-size: 19px;
 
 }
 
 #div-telefono{
     display: inline-block;
-    height: 60px;
+    height: 65px;
     width: 200px;
     margin-left: 10px;
-    background-color: rgb(156, 156, 156);
+    background-color: #1950a1;
     border: solid 1px rgb(7, 7, 7);
-    border-radius: 0 40px 0 40px;
+    border-radius: 10px 10px 10px 10px;
 }
 #texto-telefono{
     text-align: center;
     margin: 0 auto;
-
+    color: white;
 
 }
 
 #div-horario{
-    height: 60px;
+    height: 65px;
     width: 200px;
     margin-left: 5px;
-    background-color: rgb(156, 156, 156);
+    background-color: #1950a1;  
     border: solid 1px rgb(7, 7, 7);
-    border-radius: 0 40px 0 40px;
+    border-radius: 10px 10px 10px 10px;
     display: inline-block;
 }
 
 #texto-horario{
     text-align: center;
     margin: 0 auto;
+    color: white;
 
 
 
@@ -101,7 +112,7 @@
 #Horario{
     text-align: center;
     
-    color: black;
+    color: white;
     font-size: 19px;
 
 }
@@ -109,15 +120,30 @@
 
 #contenedor-items{
     text-align: center;
-    
+    align-items: center;
 
 }
 
 
 #contenedor-como-llegar{
-    height: 500px;
-    background-color: rgb(89, 122, 231);
+   
+    
     text-align: center;
+    
 
+}
+
+#texto-como-llegar{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    background-color: steelblue;
+    width: 300px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+#contenedor-todo{
+   
 
 }

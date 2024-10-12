@@ -23,7 +23,7 @@ function Navbar() {
       <h6 className='text-uppercase fw-bold mb- ms-3 mt-1' style={{ color: '#6C757D'}}>
       <img 
         src="https://i.ibb.co/WDPTxmv/UBIFACIL-blanco-10px.png" 
-        alt="Logo" 
+        alt="Logo"
         style={{ width: '50px', height: 'auto', marginRight: '8px', marginTop: '2px' }} 
       />
     </h6>
@@ -32,7 +32,6 @@ function Navbar() {
         <Link to="/" onClick={handleLinkClick}>Inicio</Link>
         <Link to="/Gastronomia" onClick={handleLinkClick}>Gastronomia</Link>
         <Link to="/Eventos" onClick={handleLinkClick}>Eventos</Link>
-        <Link to="/Hospedaje" onClick={handleLinkClick}>Hospedaje</Link>
         <Link to="/SobreNosotros" onClick={handleLinkClick}>Sobre Nosotros</Link>
         <Link to="/Contacto" onClick={handleLinkClick}>Contacto</Link>
       </div>
@@ -58,7 +57,7 @@ const NavContainer = styled.nav`
     }
   }
   padding: .4rem;
-  background-image: linear-gradient(#d9c97b 50%, #c66529);
+  background-color: #003B95;
   display: flex;
   align-items: center;
   justify-content: space-between;

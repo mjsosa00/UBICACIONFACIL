@@ -10,10 +10,12 @@ function GridExample() {
     const location = useLocation();
     const navigate = useNavigate(); 
     const currentPath = location.pathname;
+    const { termino } = location.state || {};
 
     const [isGastronomia, setIsGastronomia] = useState(currentPath === '/Gastronomia');
     const [isEventos, setIsEventos] = useState(currentPath === '/Eventos');
     const [isHospedaje, setIsHospedaje] = useState(currentPath === '/Hospedaje');
+    const [isBusqueda, setIsBusqueda] = useState(currentPath === '/Resultado');
     const [items, setItems] = useState([]);
 
     useEffect(() => {
@@ -24,7 +26,7 @@ function GridExample() {
 
     useEffect(() => {
         const loadItems = async () => {
-            const data = await getData(isGastronomia, isEventos, isHospedaje);
+            const data = await getData(isGastronomia, isEventos, isHospedaje, isBusqueda, termino);
             const formattedData = data.map(item => ({
                 "titulo": item.titulo,
                 "texto": item.texto,
@@ -32,7 +34,8 @@ function GridExample() {
                 "Pagina": item.Pagina,
                 "Telefono": item.Telefono,
                 "id": item.id,
-                "href": item.href
+                "href": item.href,
+                "horario": item.horario
             }));
             setItems(formattedData);
         };
@@ -47,7 +50,7 @@ function GridExample() {
     return (
         <div className='Container-divino' style={{ textAlign: 'center', marginBottom: '200px' }}>
             <h1 style={{ fontSize: '2.5rem', color: '#333', fontWeight: 'bold' }}>
-                {isEventos ? 'EVENTOS' : isGastronomia ? 'GASTRONOMÍA' : 'HOSPEDAJES'}
+                {isEventos ? 'EVENTOS' : isGastronomia ? 'GASTRONOMÍA' : isHospedaje ? 'HOSPEDAJES' : 'RESULTADO'}
             </h1>
             <Row xs={1} md={2} className="g-4">
                 {items.map((card) => (
