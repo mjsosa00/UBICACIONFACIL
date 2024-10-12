@@ -39,7 +39,9 @@ const ComponentReactivo=() =>{
               />             
             </div>
             <br></br>
+            <div id='contenedor-titulo'>
             <h1 id='titulo-articulo'>{card.titulo} </h1>
+            </div>
              <br></br>
 
            <div id='contenedor-items'>

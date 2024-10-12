@@ -19,6 +19,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ComponentReactivo from './components/ComponentReactivo';
 import { CgPacman } from 'react-icons/cg';
 import ClickableComponent from './components/Clickable';
+import SearchComponent from './components/SearchComponent';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function Main() {
     <>
       {location.pathname === '/' && (
          <div>
+          <SearchComponent />
         <FacilubCarrusel />
 
         <div style={{ padding: '20px' }}>
@@ -69,6 +71,7 @@ function Main() {
         <Route path="/Eventos" element={<h1>Eventos</h1>} />
         <Route path="/Gastronomia" element={<h1>Gastronomia</h1>} />
         <Route path="/Hospedaje" element={<h1>Hospedaje</h1>} />
+        <Route path="/Resultado" element={<h1>Resultado</h1>} />
       </Routes>
         
     </div>
@@ -80,6 +83,7 @@ function Main() {
         <Route path="/Gastronomia" element={<Card />} />
         <Route path="/Eventos" element={<Card />} />
         <Route path="/Hospedaje" element={<Card />} />
+        <Route path="/Resultado" element={<Card />} />
         <Route path="/sobrenosotros" element={<SobreNosotros />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/TerminosYServicios" element={<TerminosYServicios />} />
