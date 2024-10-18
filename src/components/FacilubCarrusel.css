@@ -7,10 +7,9 @@
 .custom-carousel {
   /* background: #eaeaea; */
   overflow: hidden;
-  height: 834px; /* Ajusta la altura del carrusel según sea necesario */
+  height: 91.9vh; /* Ajusta la altura del carrusel según sea necesario */
   position: relative; /* Para mantener el flujo del layout */
   margin-bottom: 0px;
-
 }
 
 .custom-carousel .container {
@@ -21,6 +20,7 @@
   margin: 0;
   margin-bottom: 250px;
 }
+
 
 .custom-carousel .slide {
   height: 100%; /* Asegúrate de que las diapositivas ocupen toda la altura del contenedor */

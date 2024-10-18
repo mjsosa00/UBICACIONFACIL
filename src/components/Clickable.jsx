@@ -4,9 +4,9 @@ import { useNavigate } from 'react-router-dom';
 
 const Container = styled.div`
   height: 400px;
-  width: 1000px;
+  width: 500px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   cursor: pointer;
   padding: 0px;
@@ -25,8 +25,21 @@ const Container = styled.div`
     padding: 15px;
     width: 100%; /* Para hacerla responsiva */
   }
+
+
 `;
 
+const Contenedortarjetas = styled.div`
+
+width: 500px;
+height: 400px;
+display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+
+
+`;
 const ContenedorTexto = styled.div`
   background-color: rgba(255, 255, 255, 0.7); /* Fondo translúcido */
   padding: 20px; /* Espacio alrededor del texto */
@@ -35,7 +48,7 @@ const ContenedorTexto = styled.div`
   left: 0; /* Se alinea al lado izquierdo */
   right: 0; /* Se alinea al lado derecho */
   bottom: 20px; /* Ajusta la posición vertical según sea necesario */
-  z-index: 10; /* Asegura que esté por encima de la imagen */
+  z-index: 1; /* Asegura que esté por encima de la imagen */
   text-align: center; /* Alinear el texto al centro */
 `;
 
@@ -70,7 +83,7 @@ const ClickableComponent = ({ title, subtitle, route, imagen }) => {
   };
 
   return (
-    <div>
+    <Contenedortarjetas>
       <Container onClick={handleClick}>
         <Image id='imagenfondo' src={imagen} alt="Fondo" />
         
@@ -79,7 +92,7 @@ const ClickableComponent = ({ title, subtitle, route, imagen }) => {
           <Subtitle>{subtitle}</Subtitle>
         </ContenedorTexto>
       </Container>
-    </div>
+    </Contenedortarjetas>
   );
 };
 

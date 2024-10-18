@@ -47,7 +47,7 @@ function Main() {
           <SearchComponent />
         <FacilubCarrusel />
 
-        <div style={{ padding: '20px' }}>
+        <div style={{ padding: '20px', display: 'flex',justifyContent:'space-between' }}>
         <ClickableComponent
           title="Gastronomia"
           subtitle="Lugares, sabores y placeres"

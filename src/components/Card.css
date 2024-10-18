@@ -1,74 +1,86 @@
-@media (max-width: 760px ) {
-
-    #componentecard {
-        max-width: 100%;
-        margin: 0 auto; 
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
-        transition: transform 0.3s ease, box-shadow 0.3s ease; 
-        border: none;   
-        
-    }
-
-    .CardComponent-imagenes{
-        width: 100%;
-        height: 100px;
-        object-fit: cover;
-        align-items: center;
-     }
-    
-
-
-    #card-titulo{
-        /* color: #ffffff; */
-        text-align: center;
-    }
-
-
+#componentecard {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    margin: 20px auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-@media (max-width: 1920px) {
-   
-    
-    #componentecard{
-        top: 10%;
-        width: 500px;
-        margin: 0 auto; 
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
-        transition: transform 0.3s ease, box-shadow 0.3s ease; 
-    }
-
-    .texto{
-        color: aqua;
-        }
-    .CardComponent-imagenes{
-         width: 100%;
-        height: 200px;
-        /* background-color: rgb(15, 15, 15); */
-  }
-
-    .g-4{
-        color: aquamarine;
-
-    }
-    
-
-    .CardComponent-texto{
-        color:black;
-    }
-
+.CardComponent-imagenes {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
 }
 
-#botonVerMas { 
-    border-radius: 8px; /* Bordes redondeados */
-    background-color: black; /* Fondo negro */
-    color: white; /* Letras blancas */
-    border: none; /* Sin borde */
-    padding: 10px 20px; /* Espaciado interno */
-    font-size: 16px; /* Tamaño de fuente */
-    cursor: pointer; /* Cambia el cursor al pasar el mouse */
-    transition: background-color 0.3s; /* Transición suave para el fondo */
+#componentecard:hover .CardComponent-imagenes {
+    transform: scale(1.1); /* Efecto de zoom */
+}
+
+/* Ocultar el contenido por defecto y mostrarlo al hacer hover */
+.component-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 380px;
+    background-color: rgba(1, 2, 46, 0.4); /* Fondo semitransparente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: translateY(100%);
+}
+
+#componentecard:hover .component-body {
+    opacity: 1;
+    transform: translateY(0);
+    top: 0px;
+}
+
+/* Estilo para el título siempre visible */
+#card-titulo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semitransparente */
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease; /* Transición suave para mover el título */
+}
+
+/* Mover el título hacia arriba cuando el mouse esté sobre la tarjeta */
+#componentecard:hover #card-titulo {
+    transform: translateY(-410%);
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.CardComponent-texto {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white; /* Aseguramos que el texto sea blanco */
+}
+
+#botonVerMas {
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 #botonVerMas:hover {
-    background-color: #333; /* Color de fondo al pasar el mouse */
+    background-color: #333;
 }
