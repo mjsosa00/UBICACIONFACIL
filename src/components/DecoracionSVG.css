@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+    .decoracion-svg {
+      width: 20vw;  /* Hacer más pequeño en pantallas pequeñas */
+      height: 20vw;
+      top: 5%;
+      left: 5%;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 1200px) {
+    .decoracion-svg {
+      width: 15vw;
+      height: 15vw;
+      top: 10%;
+      left: 10%;
+    }
+  }
+  
+  @media (min-width: 1201px) {
+    .decoracion-svg {
+      width: 10vw;
+      height: 10vw;
+      top: 15%;
+      left: 15%;
+    }
+  }
+  

@@ -1,43 +1,220 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Previene desbordamiento horizontal */
-    padding-top: 38.5px
+body {
+
+  background-repeat: repeat-y;
+  background-size: contain;
+  background-position: center;
+  
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* Previene desbordamiento horizontal */
+  padding-top: 38.5px
 }
 
 
 /* App.css */
 
 .app-container {
-    display: flex;
-    flex-direction: column;
-  }
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  z-index: 10;
+  /* Asegúrate de que el header esté encima de otros elementos */
+}
+
+footer {
+  z-index: 1;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.main-content {
+  flex-grow: 1;
+  /* Para que el contenido principal ocupe el espacio disponible */
+}
+
+.carousel-container {
+  margin-bottom: 20px;
+  /* Espacio inferior para separar del siguiente componente */
+  top: 200px;
+}
+
+
+
+/* Ajusta el carrusel y otros componentes */
+.carousel {
+  display: block;
+  /* Asegúrate de que se muestre como bloque */
+  width: 100%;
+  /* Asegúrate de que ocupe el 100% del ancho */
+}
+
+
+/* App.css */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* Previene desbordamiento horizontal */
+  padding-top: 38.5px
+}
+
+
+/* App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  z-index: 10;
+  /* Asegúrate de que el header esté encima de otros elementos */
+}
+
+footer {
+  z-index: 1;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.main-content {
+  flex-grow: 1;
+  /* Para que el contenido principal ocupe el espacio disponible */
+}
+
+.carousel-container {
+  margin-bottom: 20px;
+  /* Espacio inferior para separar del siguiente componente */
+  top: 200px;
+}
+
+
+
+/* Ajusta el carrusel y otros componentes */
+.carousel {
+  display: block;
+  /* Asegúrate de que se muestre como bloque */
+  width: 100%;
+  /* Asegúrate de que ocupe el 100% del ancho */
+}
+
+
+/* App.css */
+.Componente1 {
+  display: flex;
+  align-items: flex-start; /* Alinea el contenido desde la parte superior */
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.componenteGastronomia {
+  flex: 0 0 50% !important; /* Ocupa el 50% del espacio disponible */
+  margin-right: 20px !important; /* Espacio entre la imagen y el texto */
+  width: 600px !important;
+}
+
+.descripcionGastronomia {
+  flex: 0 0 50%; /* También ocupa el 50% del espacio disponible */
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 400px;
+  width: 700px;
+  text-align: center;
+}
+
+.descripcionGastronomia h1 {
+  margin-bottom: 0px;
+  font-size: 1.5em;
+  color: #000408;
+  text-align: center;
+}
+
+.descripcionGastronomia span {
+  position: relative;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: hsl(0, 21%, 93%);
+  margin-bottom: 15px;
   
-  header {
-    z-index: 10; /* Asegúrate de que el header esté encima de otros elementos */
+}
+
+.descripcionGastronomia p {
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .Componente1 {
+      flex-direction: column; /* Apilar en pantallas pequeñas */
   }
 
-  footer {
-    z-index: 1;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem;
+  .ClickableComponent, .descripcionGastronomia {
+      flex: 1; /* Cada uno ocupa todo el ancho disponible */
+      margin-right: 0; /* Sin margen en pantallas pequeñas */
+      margin-bottom: 20px; /* Espacio inferior */
+  }
 }
-  
-  .main-content {
-    flex-grow: 1; /* Para que el contenido principal ocupe el espacio disponible */
-  }
-  
-  .carousel-container {
-    margin-bottom: 20px; /* Espacio inferior para separar del siguiente componente */
-    top: 200px;
-  }
-  
- 
-  
-  /* Ajusta el carrusel y otros componentes */
-  .carousel {
-    display: block; /* Asegúrate de que se muestre como bloque */
-    width: 100%; /* Asegúrate de que ocupe el 100% del ancho */
-  }
+
+.customDivStyle {
+  display: block; /* Asegura que span ocupe toda la línea */
+}
+
+ #sectionprincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra la sección completa */
+}
+
+#descripcion {
+  font-size: 3rem;
+}
+
+.customDivStyle {
+  font-size: 3rem;
+  display: inline-block;
+  transform:skewX(-12deg);
+  background-color: #003B95;  /* Color de fondo RGB con opacidad */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: rgba(247, 250, 252, 1);  /* Color del texto con opacidad */
+}
+
+.customDivStyle {
+  display: block; /* Asegura que span ocupe toda la línea */
+}
+
+ #sectionprincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra la sección completa */
+}
+
+
+#descripcion {
+  font-size: 3rem;
+}
+
+.customDivStyle {
+  font-size: 3rem;
+  display: inline-block;
+  transform:skewX(-12deg);
+  background-color: #003B95;  /* Color de fondo RGB con opacidad */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: rgba(247, 250, 252, 1);  /* Color del texto con opacidad */
+}

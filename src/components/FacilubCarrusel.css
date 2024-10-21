@@ -5,7 +5,6 @@
 }
 
 .custom-carousel {
-  /* background: #eaeaea; */
   overflow: hidden;
   height: 91.9vh; /* Ajusta la altura del carrusel según sea necesario */
   position: relative; /* Para mantener el flujo del layout */
@@ -21,7 +20,6 @@
   margin-bottom: 250px;
 }
 
-
 .custom-carousel .slide {
   height: 100%; /* Asegúrate de que las diapositivas ocupen toda la altura del contenedor */
 }
@@ -32,11 +30,27 @@
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
-  border-radius: 20px;
+  border-radius: 20px; /* Bordes redondeados */
   background-position: 50% 50%;
   background-size: cover;
   display: inline-block;
   transition: 0.5s;
+  overflow: hidden; /* Asegura que el difuminado no se salga de los bordes */
+  
+}
+
+
+/* Efecto de difuminado en los bordes */
+.custom-carousel .slide .item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  pointer-events: none; /* Permite interactuar con el contenido detrás */
+  
 }
 
 .custom-carousel .slide .item:nth-child(1),
@@ -47,18 +61,25 @@
   border-radius: 0;
   width: 100%;
   height: 100%;
+  
 }
 
 .custom-carousel .slide .item:nth-child(3) {
   left: 50%;
+  border: 2px solid white;
+
 }
 
 .custom-carousel .slide .item:nth-child(4) {
   left: calc(50% + 220px);
+  border: 2px solid white;
+
 }
 
 .custom-carousel .slide .item:nth-child(5) {
   left: calc(50% + 440px);
+  border: 2px solid white;
+
 }
 
 .custom-carousel .slide .item:nth-child(n + 6) {
@@ -83,18 +104,21 @@
 }
 
 .custom-carousel .content .name {
-  font-size: 40px;
+  font-size: 60px;
   text-transform: uppercase;
   font-weight: bold;
   opacity: 0;
   animation: animate 1s ease-in-out 1 forwards;
+  width: 400px;
 }
 
 .custom-carousel .content .des {
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   opacity: 0;
+  font-size: 28px;
   animation: animate 1s ease-in-out 0.3s 1 forwards;
+  width: 400px;
 }
 
 .custom-carousel .content button {
@@ -104,6 +128,13 @@
   opacity: 0;
   animation: animate 1s ease-in-out 0.6s 1 forwards;
   border-radius: 8px;
+  color: #EB5B38;
+}
+
+
+.custom-carousel .content button:hover {
+  background-color: #EB5B38;
+  color: #E6E4DC;
 }
 
 @keyframes animate {
@@ -127,30 +158,27 @@
 }
 
 .custom-carousel .button button {
-  width: 40px;
-  height: 35px;
-  border-radius: 8px;
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
   border: none;
   cursor: pointer;
   margin: 0 5px;
-  border: 1px solid #000;
+  border: 2px solid white;
   transition: 0.3s;
+  background: transparent;
 }
 
 .custom-carousel .button button:hover {
-  background: #ababab;
+  background: rgba(235, 92, 56, 0.712);
   color: #fff;
 }
 
 /* Media Query para dispositivos móviles */
 @media (max-width: 768px) {
-
   .custom-carousel.custom-carousel {
     margin-bottom: 0px !important;
-    
   }
-
-
 
   .custom-carousel {
     height: 200px;
@@ -270,18 +298,24 @@
   }
 
   .custom-carousel .content .name {
-    position: static;
+    position: relative;
     font-size: 18px;
     z-index: 10000;
+    bottom: 30px;
   }
 
   .custom-carousel .content .des {
     font-size: 14px;
+    position: relative;
+    bottom: 20px;
+    margin: 0px;
   }
 
   .custom-carousel .content button {
     font-size: 10px;
     padding: 8px 16px;
+    position: relative;
+    top: 24px;
   }
 
   .custom-carousel .button button {
@@ -290,6 +324,7 @@
     margin: 0 50px;
     bottom: 44px;
   }
+
   .custom-carousel .slide .item:nth-child(n + 6) {
     left: 0;
     opacity: 0;
