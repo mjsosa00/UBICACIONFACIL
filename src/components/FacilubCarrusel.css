@@ -128,12 +128,12 @@
   opacity: 0;
   animation: animate 1s ease-in-out 0.6s 1 forwards;
   border-radius: 8px;
-  color: #EB5B38;
+  color: #347CCB;
 }
 
 
 .custom-carousel .content button:hover {
-  background-color: #EB5B38;
+  background-color: #347CCB;
   color: #E6E4DC;
 }
 
@@ -170,7 +170,7 @@
 }
 
 .custom-carousel .button button:hover {
-  background: rgba(235, 92, 56, 0.712);
+  background: rgb(41, 50, 65, 0.712);
   color: #fff;
 }
 

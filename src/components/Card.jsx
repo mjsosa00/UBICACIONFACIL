@@ -44,7 +44,7 @@ function GridExample() {
     }, [isGastronomia, isEventos]);
 
     const handleVerMas = (card) => {
-        navigate('/ComponenteReactivo', { state: { card } });
+        navigate(`/componentereactivo/${card.titulo}`, { state: { card } }); // Corregido para asegurarse de que el ID sea un número
     };
 
     return (
@@ -57,7 +57,7 @@ function GridExample() {
                     <Col key={card.id}>
                         <CardComponent id='componentecard'>
                             <CardComponent.Img className='CardComponent-imagenes' variant="top" src={card.imagenes[0]} />
-                            <CardComponent.Title id='card-titulo'>{card.titulo}</CardComponent.Title> {/* Título siempre visible */}
+                            <CardComponent.Title id='card-titulo'>{card.titulo}</CardComponent.Title>
                             <CardComponent.Body className='component-body'>
                                 <CardComponent.Text className='CardComponent-texto'>{card.texto}</CardComponent.Text>
                                 <button id="botonVerMas" onClick={() => handleVerMas(card)}>
