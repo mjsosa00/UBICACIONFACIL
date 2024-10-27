@@ -14,7 +14,7 @@ const Container = styled.section`
   width: 100%;
   height: auto; /* Ajustamos el alto para que sea dinámico */
   max-width: 1400px;
-  margin: 200px auto;
+  margin: 20px auto;
   z-index: 1;
 `;
 
@@ -49,8 +49,8 @@ const Image = styled.img`
   border-radius: 25px;
 
   @media (max-width: 768px) {
-    width: 100%; /* Imagen ocupa todo el ancho en móviles */
-    height: auto; /* Mantiene la proporción en móviles */
+    width: 302px; /* Imagen ocupa todo el ancho en móviles */
+    height: 200px; /* Mantiene la proporción en móviles */
   }
 `;
 

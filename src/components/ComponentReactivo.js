@@ -6,22 +6,37 @@ import './ComponenteReactivo.css';
 
 const ComponentReactivo = () => {
   const { titulo } = useParams();
-  const [card, setCard] = useState(null); // Estado local para almacenar la tarjeta
+  const [card, setCard] = useState(null); // Estado para almacenar el objeto encontrado
   const [loading, setLoading] = useState(true); // Estado de carga
 
   useEffect(() => {
-    // Cargar datos desde el archivo JSON
     const fetchData = async () => {
       try {
-        const response = await fetch('/gastronomia.json'); // Ruta al archivo JSON
-        const data = await response.json(); // Parsear la respuesta a JSON
-        const foundCard = data.find(item => item.titulo); // Buscar la tarjeta según el ID
+        // Realizar ambas peticiones de datos en paralelo
+        const [gastronomiaResponse, hospedajeResponse, eventosResponse] = await Promise.all([
+          fetch('/gastronomia.json'),
+          fetch('/hospedaje.json'),
+          fetch('/eventos.json')
+        ]);
 
-        setCard(foundCard);
+        // Convertir las respuestas a JSON
+        const gastronomiaData = await gastronomiaResponse.json();
+        const hospedajeData = await hospedajeResponse.json();
+        const eventosData = await eventosResponse.json();
+
+        // Buscar coincidencias en ambos conjuntos de datos
+        const foundCard = [
+          ...gastronomiaData.filter(item => item.titulo === titulo),
+          ...hospedajeData.filter(item => item.titulo === titulo),
+          ...eventosData.filter(item => item.titulo === titulo)
+
+        ][0]; // Tomar la primera coincidencia si existe
+
+        setCard(foundCard || null); // Actualizar estado con la coincidencia o dejar en null
       } catch (error) {
-        console.error('Error al cargar el archivo JSON:', error);
+        console.error('Error al cargar los archivos JSON:', error);
       } finally {
-        setLoading(false); // Terminar la carga
+        setLoading(false); // Finalizar carga
       }
     };
 
@@ -33,7 +48,7 @@ const ComponentReactivo = () => {
   }
 
   if (!card) {
-    return <div>No se encontró el contenido para este ID.</div>; // Si no se encuentra el card
+    return <div>No se encontró el contenido para este título.</div>; // Si no se encuentra el card
   }
 
   const images = card.imagenes ? card.imagenes.map((img) => ({

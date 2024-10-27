@@ -67,7 +67,7 @@ const NavContainer = styled.nav`
   left: 0;
   right: 0;
   padding: .4rem;
-  background-color: #293241;
+  background-color: #003B95;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -115,20 +115,20 @@ const NavContainer = styled.nav`
 
     a:hover::after {
       opacity: 1;
-      background: #347CCB;
+      background: #ffb204;
     }
 
     a:hover {
-      color: #347CCB;
+      color: #ffb204;
     }
 
     a.activer {
-      color: #347CCB;
+      color: #ffb204;
     }
 
     a.activer::after {
       opacity: 1;
-      background: #347CCB;
+      background: #ffb204;
     }
       
 

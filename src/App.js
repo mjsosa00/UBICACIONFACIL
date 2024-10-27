@@ -19,7 +19,12 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ComponentReactivo from './components/ComponentReactivo';
 import SearchComponent from './components/SearchComponent';
+import CarruselHospedaje from './components/CarruselHospedaje';
 import { DecoracionSVG, CirculoIzquierdaSVG, CirculoDerechaSVG, PuntitosSVG } from './components/DecoracionSVG';
+import CarruselSelector from './components/CarruselSelector';
+import CarruselGastronomia from './components/CarruselGastronomia';
+
+
 
 function App() {
   return (
@@ -47,7 +52,6 @@ function Main() {
           <SearchComponent />
           <FacilubCarrusel />
           <section id='sectionprincipal'>
-            <div className='Componente1'>
               <ClickableComponent
                 className="componenteGastronomia"
                 title="Gastronomía"
@@ -62,11 +66,10 @@ function Main() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
               />
-              <DecoracionSVG width="200px" height="200px" top="1400px" left="0px" />
-              <CirculoIzquierdaSVG width="200px" height="200px" top="1800px" left="0px" transform='translate(-50%, 0)' />
-            </div>
-            <PuntitosSVG width="100px" height="400px" top="1450px" right="50px" transform='translate(-500%, 0)' />
-            <CirculoDerechaSVG width="100px" height="400px" top="1000px" right="0px" />
+            <CarruselGastronomia />
+
+
+
             <ClickableComponent
               title="Eventos"
               subtitle="Festivales, conciertos y festejos"
@@ -88,6 +91,10 @@ function Main() {
               imagen="https://images.adsttc.com/media/images/66f5/7167/4003/183c/2a97/5bd2/slideshow/un-hospedaje-en-el-pigue-mestizo-estudio-arquitectura_15.jpg?1727361417"
               route="/Hospedaje"
             />
+
+            <h1>HOSPEDAJE</h1>
+            <CarruselHospedaje />
+
             <Routes>
               <Route path="/Eventos" element={<h1>Eventos</h1>} />
               <Route path="/Gastronomia" element={<h1>Gastronomía</h1>} />
@@ -108,7 +115,10 @@ function Main() {
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/TerminosYServicios" element={<TerminosYServicios />} />
         <Route path="/PoliticaDePrivacidad" element={<PoliticaDePrivacidad />} />
-        <Route path="/ComponenteReactivo/:titulo" element={<ComponentReactivo />} /> {/* Cambiado aquí */}
+        <Route path="/ComponenteReactivo/:titulo" element={<ComponentReactivo />} />
+
+        {/* Nueva ruta con parámetros :seccion y :titulo */}
+        <Route path="/:tipo/:titulo" element={<ComponentReactivo />} />
       </Routes>
     </>
   );

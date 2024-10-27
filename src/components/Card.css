@@ -84,3 +84,63 @@
 #botonVerMas:hover {
     background-color: #333;
 }
+
+@media (max-width: 768px) {
+    #componentecard {
+        position: relative;
+        max-width: 400px;
+        height: 300px;
+        overflow: hidden;
+        margin: 20px auto;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    #card-titulo {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semitransparente */
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 10px;
+        text-align: center;
+        transition: transform 0.3s ease; /* Transición suave para mover el título */
+        
+    }
+
+
+  }
+
+
+@media (max-width: 370px) {
+    
+    #componentecard {
+        position: relative;
+        max-width: 360px;
+        height: 300px;
+        overflow: hidden;
+        margin: 20px auto;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    #card-titulo {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semitransparente */
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 10px;
+        text-align: center;
+        transition: transform 0.3s ease; /* Transición suave para mover el título */
+        
+    }
+
+    
+  }
