@@ -73,7 +73,7 @@ const TextContainer = styled.div`
 `;
 
 const Subtitle = styled.p`
-  color: #EB5B38;
+  color: #003B95;;
   font-weight: bold;
   font-size: 24px;
 `;
@@ -120,7 +120,7 @@ const Button = styled.button`
   display: inline-block;
   margin-top: 1.5rem;
   padding: 0.5rem 1rem;
-  background-color: #EB5B38;
+  background-color: #003B95;;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -131,7 +131,7 @@ const Button = styled.button`
 
   &:hover {
     background-color: #E6E4DC;
-    color: #EB5B38;
+    color: #003B95;
   }
 
   @media (max-width: 768px) {

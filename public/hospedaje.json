@@ -10,7 +10,15 @@
     "href": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13369.275908232765!2d-66.007439!3d-33.100697!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d473befc3ba79d%3A0x2df8be7cebd02c58!2sCosta%20Parador!5e0!3m2!1ses-419!2sar!4v1728615846399!5m2!1ses-419!2sar",
     "Pagina": "https://www.instagram.com/costaparador/",
     "Telefono": "Celular +54 9 2657 626285",
-    "id": 1
+    "id": 1,
+    "tipo": "hospedaje",
+    "preciodia":"4000$",
+    "wifi":"si",
+    "bufet": "Matutino",
+    "minalquiler": "24 horas",
+    "horario": "9hs a 18hs",
+    "formadepago": "Efectivo-Tarjeta-Mercadopago"
+    
   },
   {
     "titulo": "Camping La Resbalosa",
@@ -23,7 +31,14 @@
     "href": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13366.791660521396!2d-66.0612993!3d-33.1170248!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d46d9b9d41127b%3A0x4884ca953a5000f!2sCamping%20La%20Resbalosa!5e0!3m2!1ses-419!2sar!4v1728671553256!5m2!1ses-419!2sar",
     "Pagina": "https://parrillaelpobreluis.com.ar/",
     "Telefono": "Celular +54 9 2657 626285",
-    "id": 2
+    "id": 2,
+    "tipo": "hospedaje",
+    "preciodia":"4000$",
+    "wifi":"si",
+    "bufet": "Matutino",
+    "minalquiler": "24 horas",
+    "horario": "9hs a 17hs",
+    "formadepago": "Efectivo-Tarjeta-Mercadopago"
   },
   {
     "titulo": "Cabañas la bonita",
@@ -37,7 +52,14 @@
     "href": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13365.734813420615!2d-66.0572852!3d-33.1239688!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d46ddc3f603c3d%3A0xcdd9c272d4699f50!2sCabañas%20la%20bonita!5e0!3m2!1ses-419!2sar!4v1728671749309!5m2!1ses-419!2sar",
     "Pagina": "https://parrillaelpobreluis.com.ar/",
     "Telefono": "Celular +54 9 2657 626285",
-    "id": 3
+    "id": 3,
+    "tipo": "hospedaje",
+    "preciodia":"4500$",
+    "wifi":"si",
+    "bufet": "Matutino y nocturno",
+    "minalquiler": "24 horas",
+    "horario": "9hs a 17hs",
+    "formadepago": "Efectivo-Tarjeta-Mercadopago"
   },
   {
     "titulo": "Cabañas Susurros del Río",
@@ -50,7 +72,14 @@
     "href": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6683.462326888101!2d-66.06445258518067!3d-33.116150878174416!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d46d999ce6b2bf%3A0x8978966e15ec7cf4!2sCabañas%20Susurros%20Del%20Rio!5e0!3m2!1ses-419!2sar!4v1728671527440!5m2!1ses-419!2sar",
     "Pagina": "https://parrillaelpobreluis.com.ar/",
     "Telefono": "Celular +54 9 2657 626285",
-    "id": 4
+    "id": 4,
+    "tipo": "hospedaje",
+    "preciodia":"3700$",
+    "wifi":"si",
+    "bufet": "Matutino",
+    "minalquiler": "24 horas",
+    "horario": "9hs a 17hs",
+    "formadepago": "Efectivo-Tarjeta-Mercadopago"
   },
   {
     "titulo": "Cerros Azules",
@@ -65,7 +94,14 @@
     "href": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13365.91274396435!2d-66.0612719!3d-33.1227998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d46d6e8e0895f1%3A0xe6406fb5f2fbfa5f!2sComplejo%20de%20cabañas%20Cerros%20Azules!5e0!3m2!1ses-419!2sar!4v1728671646246!5m2!1ses-419!2sar",
     "Pagina": "https://parrillaelpobreluis.com.ar/",
     "Telefono": "02664734218",
-    "id": 5
+    "id": 5,
+    "tipo": "hospedaje",
+    "preciodia":"2500$",
+    "wifi":"si",
+    "bufet": "No",
+    "minalquiler": "8 horas",
+    "horario": "9hs a 17hs",
+    "formadepago": "Efectivo-Tarjeta-Mercadopago"
   },
   {
     "titulo": "Cabañas DAYMA",
@@ -80,6 +116,13 @@
     "href": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13364.03791021375!2d-66.06670117561524!3d-33.13511558302934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d46d7206d94d17%3A0x812fc617cdd85162!2sCabañas%20Dayma!5e0!3m2!1ses-419!2sar!4v1728671816268!5m2!1ses-419!2sar",
     "Pagina": "https://parrillaelpobreluis.com.ar/",
     "Telefono": "02664734218",
-    "id": 6
+    "id": 6,
+    "tipo": "hospedaje",
+    "preciodia":"3400$",
+    "wifi":"si",
+    "bufet": "Matutino",
+    "minalquiler": "12 horas",
+    "horario": "9hs a 17hs",
+    "formadepago": "Efectivo-Tarjeta-Mercadopago"
   }
 ]

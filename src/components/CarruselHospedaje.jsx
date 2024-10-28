@@ -121,7 +121,7 @@ const CarruselHospedaje = () => {
                       objectFit: "cover",
                     }}
                   />
-                  <div style={{ padding: "15px", height: "100px" }}> {/* Establece altura fija para mantener consistencia */}
+                  <div style={{ padding: "15px", height: "170px" }}> {/* Establece altura fija para mantener consistencia */}
                     <h3 style={{ fontSize: "1.2rem", fontWeight: "bold", color: "#333", height: "30px", margin: "0" }}>
                       {customText ? customText.titulo : hospedaje.titulo}
                     </h3>
@@ -134,7 +134,7 @@ const CarruselHospedaje = () => {
                         display: "inline-block",
                         margin: "10px 0",
                         padding: "8px 12px",
-                        backgroundColor: "#007bff",
+                        backgroundColor: "#003B95",
                         color: "white",
                         textDecoration: "none",
                         borderRadius: "5px",

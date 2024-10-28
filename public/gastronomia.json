@@ -9,22 +9,34 @@
       "https://i.ibb.co/41jphbc/img3.jpg",
       "https://i.ibb.co/hYFtYJ2/img4.jpg"
     ],
-"href": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13365.6820115754!2d-66.0599263!3d-33.1243157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d46d46fee74591%3A0x4f5253d53566049e!2sLo%20de%20Maria%20Jos%C3%A9!5e0!3m2!1ses!2sar!4v1728668959694!5m2!1ses!2sar",    "Pagina": "https://www.instagram.com/almacen.mariaj/",
+    "href": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13365.6820115754!2d-66.0599263!3d-33.1243157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d46d46fee74591%3A0x4f5253d53566049e!2sLo%20de%20Maria%20Jos%C3%A9!5e0!3m2!1ses!2sar!4v1728668959694!5m2!1ses!2sar",
+    "Pagina": "https://www.instagram.com/almacen.mariaj/",
     "Telefono": "+54 9 2664 79-0621",
     "id": 1,
-    "horario": "desde 13hs a 20hs"
+    "horario": "desde 13hs a 20hs",
+    "wifi": "si",
+    "formadepago":"Efectivo-Tarjeta-Mercadopago",
+    "zonaninos": "si",
+    "reserva": "si",
+    "tipo": "gastronomia"
+    
 },
 
 
   {
     "titulo": "Comedor Rosales",
     "texto": "Se encuentra al pie de las Sierras de San Luis.",
-    "imagen": "https://scontent.fluq2-1.fna.fbcdn.net/v/t1.6435-9/117206457_2656550431253970_6440093287376556946_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=13d280&_nc_ohc=zkYTeKH2bKwQ7kNvgFsiiwJ&_nc_ht=scontent.fluq2-1.fna&_nc_gid=AdcYpYeQqdW1F7sK2P09roO&oh=00_AYDnMtcDyWVIsOq8ykb1EGbchH9krZoqsie3SC782UTmYQ&oe=671CBD0F",
+    "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/52/25/d2/los-rosales.jpg?w=1000&h=-1&s=1",
     "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
   "Pagina":"https://parrillaelpobreluis.com.ar/",
     "Telefono":"Celular +54 9 2657 626285",
     "id":2,
-    "horario":"desde las 13hs a 20hs"
+    "horario":"desde las 13hs a 20hs",
+    "wifi": "si",
+    "formadepago":"Efectivo-Tarjeta-Mercadopago",
+    "zonaninos": "si",
+    "reserva": "si",
+    "tipo": "gastronomia"
     
   },
   {
@@ -35,7 +47,12 @@
 "Pagina":"https://parrillaelpobreluis.com.ar/",
     "Telefono":"Celular +54 9 2657 626285",
     "id":3,
-    "horario":"desde las 13hs a 20hs"
+    "horario":"desde las 13hs a 20hs",
+    "wifi": "si",
+    "formadepago":"Efectivo-Tarjeta-Mercadopago",
+    "zonaninos": "si",
+    "reserva": "si",
+    "tipo": "gastronomia"
   },
   {
     "titulo": "Bettel Restó",
@@ -45,7 +62,12 @@
     "Pagina":"https://parrillaelpobreluis.com.ar/",
     "Telefono":"Celular +54 9 2657 626285",
     "id":4,
-    "horario":"desde las 13hs a 20hs"
+    "horario":"desde las 13hs a 20hs",
+    "wifi": "si",
+    "formadepago":"Efectivo-Tarjeta-Mercadopago",
+    "zonaninos": "si",
+    "reserva": "si",
+    "tipo": "gastronomia"
   },
   {
     "titulo": "La Casa de Omar II",
@@ -55,7 +77,12 @@
     "Pagina":"https://parrillaelpobreluis.com.ar/",
     "Telefono":"Celular  +54 9 2652 754433",
     "id":5,
-    "horario":"desde las 13hs a 20hs"
+    "horario":"desde las 13hs a 20hs",
+    "wifi": "si",
+    "formadepago":"Efectivo-Tarjeta-Mercadopago",
+    "zonaninos": "si",
+    "reserva": "si",
+    "tipo": "gastronomia"
   },
   {
     "titulo": "Los Pájaros",
@@ -65,7 +92,12 @@
     "Pagina":"https://parrillaelpobreluis.com.ar/",
     "Telefono":"Celular +54 9 266 4690548 Teléfono +54 266-44931595",
     "id":6,
-    "horario":"desde las 13hs a 20hs"
+    "horario":"desde las 13hs a 20hs",
+    "wifi": "si",
+    "formadepago":"Efectivo-Tarjeta-Mercadopago",
+    "zonaninos": "si",
+    "reserva": "si",
+    "tipo": "gastronomia"
   },
   {
     "titulo": "Reto SUAYAI",
@@ -75,7 +107,12 @@
     "Pagina":"https://parrillaelpobreluis.com.ar/",
     "Telefono":"Celular +54 9 2657 626285",
     "id":7,
-    "horario":"desde las 13hs a 20hs"
+    "horario":"desde las 13hs a 20hs",
+    "wifi": "si",
+    "formadepago":"Efectivo-Tarjeta-Mercadopago",
+    "zonaninos": "si",
+    "reserva": "si",
+    "tipo": "gastronomia"
     
   },
   {
@@ -86,6 +123,11 @@
     "Pagina":"https://parrillaelpobreluis.com.ar/",
     "Telefono":"Celular +54 9 2657 626285",
     "id":8,
-    "horario":"desde las 13hs a 20hs"
+    "horario":"desde las 13hs a 20hs",
+    "wifi": "si",
+    "formadepago":"Efectivo-Tarjeta-Mercadopago",
+    "zonaninos": "si",
+    "reserva": "si",
+    "tipo": "gastronomia"
   }
 ]

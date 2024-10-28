@@ -1,7 +1,6 @@
-
 #contenedor-titulo{
 
-    background-color: #003B95;
+    
 
 
 }
@@ -9,11 +8,11 @@
 #titulo-articulo{
 
     text-align: center;
-    
+    background-color: #003B95;
     height: 70px;
     max-width: 100%;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 30px;
     color: white;
     position: relative;
     top: 10px;
@@ -146,4 +145,39 @@
 #contenedor-todo{
    
 
+}
+
+
+.div-tabla{
+    margin: 0 auto;
+    width: 401px;
+    
+    border-radius: 4px;
+
+}
+
+.tabla-items{
+    margin: 0 auto;
+    width: 400px;
+    
+}
+
+.tabla-items th{
+    font-weight: bold;
+    padding-left: 10px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #0f3492;
+    
+}
+
+.tabla-items td{
+    font-weight: normal;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #003B95;
+
+    
+   
+    
 }

@@ -40,7 +40,7 @@ function Navbar() {
         </h6>
       </Link>
       <div className={`links ${clicked ? 'active' : ''}`} style={{ textTransform: 'uppercase'}}>
-        {['/', '/Gastronomia', '/Eventos', '/SobreNosotros', '/Contacto'].map((path) => (
+        {['/', '/Gastronomia', '/Eventos', '/Hospedaje', '/Contacto'].map((path) => (
           <Link
             to={path}
             onClick={handleLinkClick}

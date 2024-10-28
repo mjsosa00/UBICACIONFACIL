@@ -134,7 +134,7 @@ const CarruselGastronomia = () => {
                         display: "inline-block",
                         margin: "10px 0",
                         padding: "8px 12px",
-                        backgroundColor: "#007bff",
+                        backgroundColor: "#003B95",
                         color: "white",
                         textDecoration: "none",
                         borderRadius: "5px",

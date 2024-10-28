@@ -21,7 +21,6 @@ import ComponentReactivo from './components/ComponentReactivo';
 import SearchComponent from './components/SearchComponent';
 import CarruselHospedaje from './components/CarruselHospedaje';
 import { DecoracionSVG, CirculoIzquierdaSVG, CirculoDerechaSVG, PuntitosSVG } from './components/DecoracionSVG';
-import CarruselSelector from './components/CarruselSelector';
 import CarruselGastronomia from './components/CarruselGastronomia';
 
 
