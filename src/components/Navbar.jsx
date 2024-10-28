@@ -18,6 +18,7 @@ function Navbar() {
   };
 
   return (
+<<<<<<< Updated upstream
     <NavContainer>
               <Link to="/" onClick={handleLinkClick}>
       <h6 className='text-uppercase fw-bold mb- ms-3 mt-1' style={{ color: '#6C757D'}}>
@@ -34,6 +35,29 @@ function Navbar() {
         <Link to="/Eventos" onClick={handleLinkClick}>Eventos</Link>
         <Link to="/SobreNosotros" onClick={handleLinkClick}>Sobre Nosotros</Link>
         <Link to="/Contacto" onClick={handleLinkClick}>Contacto</Link>
+=======
+    <NavContainer scrolling={scrolling}>
+      <Link to="/" onClick={handleLinkClick}>
+        <h6 className='text-uppercase fw-bold mb- ms-3 mt-1' style={{ color: '#6C757D' }}>
+          <img
+            src="https://i.ibb.co/WDPTxmv/UBIFACIL-blanco-10px.png"
+            alt="Logo"
+            style={{ width: '50px', height: 'auto', marginRight: '8px', marginTop: '2px' }}
+          />
+        </h6>
+      </Link>
+      <div className={`links ${clicked ? 'active' : ''}`} style={{ textTransform: 'uppercase'}}>
+        {['/', '/Gastronomia', '/Eventos', '/Hospedaje', '/Contacto'].map((path) => (
+          <Link
+            to={path}
+            onClick={handleLinkClick}
+            className={location.pathname === path ? 'activer' : ''}
+            key={path}
+          >
+            {path === '/' ? 'Inicio' : path.substring(1)}
+          </Link>
+        ))}
+>>>>>>> Stashed changes
       </div>
       <div className='burguer'>
         {/* Usa handleToggleClick aquí para abrir y cerrar el menú */}

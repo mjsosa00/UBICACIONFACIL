@@ -6,7 +6,14 @@
       "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
       "Pagina":"https://parrillaelpobreluis.com.ar/",
       "Telefono":"Celular +54 9 2657 626285",
-      "id":1
+      "id":1,
+      "ingreso" : "Libre y gratuito",
+      "diaevento": "Martes 29 de octubre",
+      "horario": "de 13hs a 20hs",
+      "zonaninos": "si",
+      "direccion": "parque de las naciones",
+      "tipo": "evento"
+
     },
     {
       "titulo": "El Festival de los Ríos promete música y danza en su 38ª edición",
@@ -15,6 +22,12 @@
       "href": "https://maps.app.goo.gl/GMGyDfmk3CH22vXS6",
 	    "Pagina":"https://parrillaelpobreluis.com.ar/",
       "Telefono":"Celular +54 9 2657 626285",
-      "id":2
+      "id":2,
+      "ingreso" : "Libre y gratuito",
+      "diaevento": "Martes 29 de octubre",
+      "horario": "de 13hs a 20hs",
+      "zonaninos": "si",
+      "direccion": "parque de las naciones",
+      "tipo": "evento"
     }
   ]

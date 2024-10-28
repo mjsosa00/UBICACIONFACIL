@@ -1,7 +1,26 @@
+<<<<<<< Updated upstream
 body, html {
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Previene desbordamiento horizontal */
+=======
+body {
+  background-image: url('https://cdn.discordapp.com/attachments/1179643622153527347/1299534337104154705/BG_UBI_NUEVO1.png?ex=671d8d2a&is=671c3baa&hm=c58b487955f20b87e6676c358e5b691b10488eed462507c7a180482ffebe1618&');
+  background-repeat: repeat-y;
+  background-size: contain;
+  background-position: center;
+  
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  
+  overflow-x: hidden;
+  /* Previene desbordamiento horizontal */
+  padding-top: 38.5px
+>>>>>>> Stashed changes
 }
 
 
