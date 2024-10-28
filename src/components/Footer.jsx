@@ -26,7 +26,7 @@ export default function Footer() {
       </section>
 
       <section className=''>
-        <MDBContainer className='text-center text-md-start mt-5' style={{ backgroundColor: '#1950a1', borderRadius: '10px' }}>
+        <MDBContainer className='text-center text-md-start mt-5' style={{ backgroundColor: '#003B95', borderRadius: '10px' }}>
 <MDBRow className='mt-3'>
   <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4 text-center'>
     <h6 className='text-uppercase fw-bold mb-4 ' style={{ color: '#6C757D'}}>
@@ -42,7 +42,7 @@ export default function Footer() {
  
 
   <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4 text-center'>
-    <h6 className='text-uppercase fw-bold mb-4' style={{ color: '#6C757D'}}>Useful links</h6>
+    <h6 className='text-uppercase fw-bold mb-4' style={{ color: 'white'}}>Useful links</h6>
     <p>
       <Link to="/Contacto" className='text-reset-footer'>Contacto</Link>
     </p>
@@ -58,7 +58,7 @@ export default function Footer() {
   </MDBCol>
 
   <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4 text-center'>
-    <h6 className='text-uppercase fw-bold mb-4'style={{ color: '#6C757D'}}>Contacto</h6>
+    <h6 className='text-uppercase fw-bold mb-4'style={{ color: 'white'}}>Contacto</h6>
     <p className='text-reset-footer'>
       <MDBIcon color='light' icon='home' className='me-2' />
       San Luis, JK 10012, AR
@@ -80,9 +80,9 @@ export default function Footer() {
         </MDBContainer>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)', color: 'white' }}>
         © 2030 Copyright:
-        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
+        <a className='text-reset fw-bold' href=''>
           UbicarFacil.com
         </a>
       </div>

@@ -59,10 +59,10 @@ const FacilubCarrusel = () => {
      
       <div className="button">
         <button className="prev" onClick={prevItem}>
-          <i className="fa-solid fa-arrow-left"></i>
+          <i className="fa-solid fa-arrow-left" style={{color:'white'}}></i>
         </button>
         <button className="next" onClick={nextItem}>
-          <i className="fa-solid fa-arrow-right"></i>
+          <i className="fa-solid fa-arrow-right" style={{color:'white'}}></i>
         </button>
       </div>
       

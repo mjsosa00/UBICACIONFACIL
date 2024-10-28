@@ -30,7 +30,7 @@ function GridExample() {
             const formattedData = data.map(item => ({
                 "titulo": item.titulo,
                 "texto": item.texto,
-                "imagenes": item.imagenes || [item.imagen], // Asegúrate de que sea un array
+                "imagenes": item.imagenes || [item.imagen],
                 "Pagina": item.Pagina,
                 "Telefono": item.Telefono,
                 "id": item.id,
@@ -44,7 +44,7 @@ function GridExample() {
     }, [isGastronomia, isEventos]);
 
     const handleVerMas = (card) => {
-        navigate('/ComponenteReactivo', { state: { card } });
+        navigate(`/componentereactivo/${card.titulo}`, { state: { card } }); // Corregido para asegurarse de que el ID sea un número
     };
 
     return (
@@ -52,13 +52,13 @@ function GridExample() {
             <h1 style={{ fontSize: '2.5rem', color: '#333', fontWeight: 'bold' }}>
                 {isEventos ? 'EVENTOS' : isGastronomia ? 'GASTRONOMÍA' : isHospedaje ? 'HOSPEDAJES' : 'RESULTADO'}
             </h1>
-            <Row xs={1} md={2} className="g-4">
+            <Row>
                 {items.map((card) => (
                     <Col key={card.id}>
                         <CardComponent id='componentecard'>
                             <CardComponent.Img className='CardComponent-imagenes' variant="top" src={card.imagenes[0]} />
+                            <CardComponent.Title id='card-titulo'>{card.titulo}</CardComponent.Title>
                             <CardComponent.Body className='component-body'>
-                                <CardComponent.Title id='card-titulo'>{card.titulo}</CardComponent.Title>
                                 <CardComponent.Text className='CardComponent-texto'>{card.texto}</CardComponent.Text>
                                 <button id="botonVerMas" onClick={() => handleVerMas(card)}>
                                     Ver más
