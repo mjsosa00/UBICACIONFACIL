@@ -20,6 +20,15 @@ import ComponentReactivo from './components/ComponentReactivo';
 import { CgPacman } from 'react-icons/cg';
 import ClickableComponent from './components/Clickable';
 import SearchComponent from './components/SearchComponent';
+<<<<<<< Updated upstream
+=======
+import CarruselHospedaje from './components/CarruselHospedaje';
+import { DecoracionSVG, CirculoIzquierdaSVG, CirculoDerechaSVG, PuntitosSVG } from './components/DecoracionSVG';
+
+import CarruselGastronomia from './components/CarruselGastronomia';
+
+
+>>>>>>> Stashed changes
 
 function App() {
   return (
@@ -76,6 +85,49 @@ function Main() {
         
     </div>
 
+<<<<<<< Updated upstream
+=======
+
+            <ClickableComponent
+              title="Eventos"
+              subtitle="Festivales, conciertos y festejos"
+              imagen="https://i.ibb.co/LCfLTqD/pexels-mikky-k-158844-625644.jpg"
+              route="/Eventos"
+              description={[
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                <br />,
+                <br />,
+                "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              ]}
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+            />
+            <ClickableComponent
+              title="Hospedaje"
+              subtitle="Hoteles, hosterías y campings"
+              imagen="https://images.adsttc.com/media/images/66f5/7167/4003/183c/2a97/5bd2/slideshow/un-hospedaje-en-el-pigue-mestizo-estudio-arquitectura_15.jpg?1727361417"
+              route="/Hospedaje"
+              description={[
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                <br />,
+                <br />,
+                "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              ]}
+            />
+
+            <h1>HOSPEDAJE</h1>
+            <CarruselHospedaje />
+
+            <Routes>
+              <Route path="/Eventos" element={<h1>Eventos</h1>} />
+              <Route path="/Gastronomia" element={<h1>Gastronomía</h1>} />
+              <Route path="/Hospedaje" element={<h1>Hospedaje</h1>} />
+              <Route path="/Resultado" element={<h1>Resultado</h1>} />
+            </Routes>
+          </section>
+        </div>
+>>>>>>> Stashed changes
       )}
 
       <Routes>
